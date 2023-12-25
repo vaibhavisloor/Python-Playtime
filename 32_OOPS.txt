@@ -1,0 +1,47 @@
+An object
+
+Attributes - Things that the object has
+and 
+Methods - Things it can do
+
+
+In order to create an object you must create a class which is comparable to a blueprint.
+
+The __init__ method allows you to perform any necessary setup or initialization tasks for an object. It is a common practice to define the essential attributes of the class and assign them initial values within the __init__ method.
+
+
+Eg:
+
+class Person:
+    def __init__(self, name, age):
+        self.name = name
+        self.age = age
+
+    def introduce(self):
+        print(f"Hi, my name is {self.name} and I am {self.age} years old.")
+
+# Creating a new instance of the Person class
+person1 = Person("John", 25) #person 1 is the object and Person is the class.
+
+# Accessing the attributes set in the __init__ method
+print(person1.name)  # Output: John
+print(person1.age)   # Output: 25
+
+# Calling the introduce method
+person1.introduce()  # Output: Hi, my name is John and I am 25 years old.
+
+
+
+#TURTLE HAS THE FOLLOWING CLASSES IN IT 
+
+Turtle: Represents a turtle object that can be moved and manipulated to create drawings and animations.
+
+Screen: Provides a graphical window where turtle graphics are displayed and allows interaction with the turtle.
+
+RawTurtle: Similar to the Turtle class, but provides direct access to the underlying turtle implementation for advanced usage.
+
+TurtleScreen: Represents the turtle graphics screen and provides methods for customization and control.
+
+ScrolledCanvas: Provides a scrollable canvas for displaying and interacting with turtle graphics.
+
+Shape: Represents a custom shape that can be used by the turtle to draw more complex and customized patterns.
