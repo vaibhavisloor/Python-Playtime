@@ -1,13 +1,20 @@
-def start_timer():
-   time_sec = 0
-   for repetitions in range(1,9):
-        print(repetitions)
-        if repetitions == 1 or repetitions == 3 or repetitions == 5 or repetitions == 7 :
-            time_sec = 25
-        elif repetitions == 2 or repetitions == 4 or repetitions == 6 :
-            time_sec = 5
-        elif repetitions == 8:
-            time_sec = 20
-        print(time_sec)    
-        repetitions+=1  
-start_timer()        
+import random
+letters = ['a', 'b', 'c', 'd', 'e', 'f', 'g', 'h', 'i', 'j', 'k', 'l', 'm', 'n', 'o', 'p', 'q', 'r', 's', 't', 'u', 'v', 'w', 'x', 'y', 'z', 'A', 'B', 'C', 'D', 'E', 'F', 'G', 'H', 'I', 'J', 'K', 'L', 'M', 'N', 'O', 'P', 'Q', 'R', 'S', 'T', 'U', 'V', 'W', 'X', 'Y', 'Z']
+numbers = ['0', '1', '2', '3', '4', '5', '6', '7', '8', '9']
+symbols = ['!', '#', '$', '%', '&', '(', ')', '*', '+']
+
+#Easy Level
+
+password_letters = [random.choice(letters) for _ in range(6)]
+password_symbols = [random.choice(symbols) for _ in range(3)]
+password_numbers = [random.choice(numbers) for _ in range(3)]
+
+list  = password_letters+password_symbols+password_numbers
+random.shuffle(list)
+
+final_password = "".join(list)
+print(final_password)
+
+
+
+
