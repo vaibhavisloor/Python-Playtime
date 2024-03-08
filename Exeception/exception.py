@@ -8,4 +8,5 @@ else: #If no execption
     # File exists, so write additional content
     file.write("Additional content")
 finally:
+    raise TypeError
     file.close()
