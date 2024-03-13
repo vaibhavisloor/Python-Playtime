@@ -24,26 +24,39 @@ def gen_pass():
 # ---------------------------- SAVE PASSWORD ------------------------------- 
     
 def save_information():
+        we=website_entry.get()
+        ee=email_entry.get()
+        pe=password_entry.get()
+
+        new_data={
+                 we:{
+                      "email":ee,
+                      "password":pe
+                 }
+            } 
+         
         if len(website_entry.get()) == 0 or len(email_entry.get()) == 0 or len(password_entry.get()) == 0 :
               messagebox.showwarning(title="Required fields",message="Please dont leave any fields empty")
         else:    
-            new_data={
-                 website_entry.get():{
-                      "email":email_entry.get(),
-                      "password":password_entry.get(),
-                 }
-            }  
             ok_bool = messagebox.askokcancel(title="Confirm your details",message=f"Website : {website_entry.get()}\nEmail : {email_entry.get()}\nPassword : {password_entry.get()}")
             if ok_bool == 1:
-                with open("data.json","w+") as file_data:
-                    data = json.load(file_data)
-                    data.append(new_data)
-                    file_data.seek(0)
-                    json.dump(data,file_data,indent=4)
-                    website_entry.delete(0,END)
-                    password_entry.delete(0,END)
-                    # file.write(f"{website_entry.get()} | {email_entry.get()} | {password_entry.get()}\n")
- 
+                try:
+                    with open("data.json", "r") as file_data:
+                        data = json.load(file_data)
+
+                except FileNotFoundError:
+                    with open("data.json", "w") as file_data:
+                        json.dump(new_data, file_data, indent=4)
+
+                else:
+                    data.update(new_data)  #Update is basically append
+                    with open("data.json","w") as data_file:
+                        json.dump(data,data_file,indent=4)  
+                          
+                finally:
+                        website_entry.delete(0, END)
+                        password_entry.delete(0, END)
+
 # #---------------------------- SEARCH -------------------------------
 def search_info():
      if (len(website_entry.get()) == 0):
