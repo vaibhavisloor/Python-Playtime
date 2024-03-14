@@ -51,8 +51,7 @@ def save_information():
                 else:
                     data.update(new_data)  #Update is basically append
                     with open("data.json","w") as data_file:
-                        json.dump(data,data_file,indent=4)  
-                          
+                        json.dump(data,data_file,indent=4)    
                 finally:
                         website_entry.delete(0, END)
                         password_entry.delete(0, END)
