@@ -58,11 +58,25 @@ def save_information():
 
 # #---------------------------- SEARCH -------------------------------
 def search_info():
-     if (len(website_entry.get()) == 0):
+    web_en=website_entry.get()
+    if (len(web_en) == 0):
         messagebox.showinfo("Error", "Please mention a website")
-#      else:
-#           try:
-#                email=   
+    else:
+        try:
+            with open("daa.json","r") as file:
+                data = json.load(file)
+                email_found=data[web_en]["email"]    
+                pass_found=data[web_en]["password"]
+        except FileNotFoundError:
+             messagebox.showinfo("Error","File not found")               
+        except KeyError:
+            messagebox.showinfo("Key not found","The key you entered isnt present in the database") 
+        else:
+             email_entry.delete(0,END)       
+             email_entry.insert(0,email_found)       
+             password_entry.insert(0,pass_found)     
+        finally:
+             file.close() 
 #---------------------------- UI SETUP ------------------------------- 
 
 window =Tk()
