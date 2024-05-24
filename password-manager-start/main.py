@@ -2,6 +2,7 @@ from tkinter import *
 from tkinter import messagebox
 import random
 import pyperclip
+import json
 # ---------------------------- PASSWORD GENERATOR ------------------------------- 
 
 def gen_pass():
@@ -23,16 +24,59 @@ def gen_pass():
 # ---------------------------- SAVE PASSWORD ------------------------------- 
     
 def save_information():
+        we=website_entry.get()
+        ee=email_entry.get()
+        pe=password_entry.get()
+
+        new_data={
+                 we:{
+                      "email":ee,
+                      "password":pe
+                 }
+            } 
+         
         if len(website_entry.get()) == 0 or len(email_entry.get()) == 0 or len(password_entry.get()) == 0 :
               messagebox.showwarning(title="Required fields",message="Please dont leave any fields empty")
-        else:      
+        else:    
             ok_bool = messagebox.askokcancel(title="Confirm your details",message=f"Website : {website_entry.get()}\nEmail : {email_entry.get()}\nPassword : {password_entry.get()}")
             if ok_bool == 1:
-                with open("database.txt","a") as file:
-                    file.write(f"{website_entry.get()} | {email_entry.get()} | {password_entry.get()}\n")
-                    website_entry.delete(0,END)
-                    password_entry.delete(0,END)
+                try:
+                    with open("data.json", "r") as file_data:
+                        data = json.load(file_data)
 
+                except FileNotFoundError:
+                    with open("data.json", "w") as file_data:
+                        json.dump(new_data, file_data, indent=4)
+
+                else:
+                    data.update(new_data)  #Update is basically append
+                    with open("data.json","w") as data_file:
+                        json.dump(data,data_file,indent=4)    
+                finally:
+                        website_entry.delete(0, END)
+                        password_entry.delete(0, END)
+
+# #---------------------------- SEARCH -------------------------------
+def search_info():
+    web_en=website_entry.get()
+    if (len(web_en) == 0):
+        messagebox.showinfo("Error", "Please mention a website")
+    else:
+        try:
+            with open("daa.json","r") as file:
+                data = json.load(file)
+                email_found=data[web_en]["email"]    
+                pass_found=data[web_en]["password"]
+        except FileNotFoundError:
+             messagebox.showinfo("Error","File not found")               
+        except KeyError:
+            messagebox.showinfo("Key not found","The key you entered isnt present in the database") 
+        else:
+             email_entry.delete(0,END)       
+             email_entry.insert(0,email_found)       
+             password_entry.insert(0,pass_found)     
+        finally:
+             file.close() 
 #---------------------------- UI SETUP ------------------------------- 
 
 window =Tk()
@@ -40,7 +84,7 @@ window.title("Password Generator")
 window.config(padx=20,pady=20)
 
 canvas = Canvas(width=200,height=200)
-password_image = PhotoImage(file="logo.png")
+password_image = PhotoImage(file="./logo.png")
 canvas.create_image(100,112,image=password_image)
 canvas.grid(row=0,column=1)
 
@@ -51,17 +95,23 @@ Email_label.grid(row=2,column=0)
 Password_label=Label(text="Password")
 Password_label.grid(row=3,column=0)
 
-website_entry = Entry(width=50)
-website_entry.grid(row=1,column=1,columnspan=2)
+Search_label=Button(text="Search",width=15,command=search_info)
+Search_label.grid(row=1,column=2)
+
+website_entry = Entry(width=31)
+website_entry.grid(row=1,column=1,columnspan=1)
 website_entry.focus()
+
 email_entry = Entry(width=50)
 email_entry.grid(row=2,column=1,columnspan=2)
 email_entry.insert(0,"viisloor@gmail.com")
+
 password_entry = Entry(width=31)
 password_entry.grid(row=3,column=1)
 
 generate_password_button=Button(text="Generate password",width=15,command=gen_pass)
 generate_password_button.grid(row=3,column=2)
+
 add_button = Button(text="Add",width=42,command=save_information)
 add_button.grid(row=4,column=1,columnspan=2)
 
