@@ -1,5 +1,6 @@
 import random
-from replit import clear
+import os
+# from replit import clear
 
 def deal_card():
   """Returns a random card from the deck."""
@@ -77,5 +78,5 @@ def play_game():
 
 
 while input("Do you want to play a game of Blackjack? Type 'y' or 'n': ") == "y":
-  clear()
+  os.system("cls")
   play_game()
