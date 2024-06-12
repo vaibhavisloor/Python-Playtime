@@ -1,4 +1,7 @@
 import requests
 
-response=requests.get("http://api.open-notify.org/iss-now.json")
+
+response=requests.get("https://catfact.ninja/fact")
 print(response.json())
+json = response.json()
+print(json["fact"])
