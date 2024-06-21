@@ -24,20 +24,24 @@
 # for i in os.environ.items():
 #     print(i)
 
+# a1=[1,2,1]
+# a2=[1,1,2]
+# a3=[2,1,1]
+
+# a11=sorted(a1)
+# a22=sorted(a2)
+# a33=sorted(a3)
+
+# print(a11,a22,a33)
 
 
-import http.client
+from datetime import datetime
 
-conn = http.client.HTTPSConnection("seeking-alpha.p.rapidapi.com")
+d = str(datetime.now())
 
-headers = {
-    'x-rapidapi-key': "cd576afc48msh58f4250c29fc302p1d5e78jsn59447521b8d0",
-    'x-rapidapi-host': "seeking-alpha.p.rapidapi.com"
-}
 
-conn.request("GET", "/market/get-realtime-quotes?sa_ids=612888%2C16123", headers=headers)
+d=d[:10]
 
-res = conn.getresponse()
-data = res.read()
-
-print(data.decode("utf-8"))
+d = d.replace('-','')
+print(d)
+print()
