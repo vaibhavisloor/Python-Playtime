@@ -74,7 +74,4 @@ reset_button = Button(text="restart",font=(FONT_NAME),highlightthickness=0,comma
 reset_button.grid(row=2,column=2)
 
 
-
-
-
 window.mainloop()

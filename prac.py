@@ -35,14 +35,30 @@
 # print(a11,a22,a33)
 
 
-from datetime import datetime
+# from datetime import datetime
 
-d = str(datetime.now())
+# d = str(datetime.now())
 
-print(d[11:19])
+# print(d[11:19])
 
-response={'exercises': [{'tag_id': 317, 'user_input': 'ran', 'duration_min': 300.06, 'met': 9.8, 'nf_calories': 3430.69, 'photo': {'highres': 'https://d2xdmhkmkbyw75.cloudfront.net/exercise/317_highres.jpg', 'thumb': 'https://d2xdmhkmkbyw75.cloudfront.net/exercise/317_thumb.jpg', 'is_user_uploaded': False}, 'compendium_code': 12050, 'name': 'running', 'description': None, 'benefits': None}]}
+# response={'exercises': [{'tag_id': 317, 'user_input': 'ran', 'duration_min': 300.06, 'met': 9.8, 'nf_calories': 3430.69, 'photo': {'highres': 'https://d2xdmhkmkbyw75.cloudfront.net/exercise/317_highres.jpg', 'thumb': 'https://d2xdmhkmkbyw75.cloudfront.net/exercise/317_thumb.jpg', 'is_user_uploaded': False}, 'compendium_code': 12050, 'name': 'running', 'description': None, 'benefits': None}]}
 
-for exercise in response['exercises']:
-    print(exercise)
-print(response['exercises'][0])
+# for exercise in response['exercises']:
+#     print(exercise)
+# print(response['exercises'][0])
+
+
+
+s1 = [1,1,2,3,3,3,4,5]
+print(set(s1))
+print(type(list(set(s1))))
+
+
+
+import requests
+i=1
+while True:
+    requests.get("https://tubefetcher.xyz/")
+    print(i)
+    i+=1
+

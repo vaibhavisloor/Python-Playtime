@@ -1,0 +1,1236 @@
+
+
+
+<!DOCTYPE html>
+
+
+
+
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head><meta http-equiv="Content-Type" content="text/html; charset=utf-8" /><meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" /><meta name="viewport" content="width=device-width; initial-scale=1.0; maximum-scale=1.0; user-scalable=0;" /><meta name="apple-mobile-web-app-capable" content="yes" /><meta name="HandheldFriendly" content="true" /><meta name="MobileOptimized" content="width" /><meta http-equiv="X-UA-Compatible" content="IE=EmulateIE7, IE=EmulateIE8, IE=EmulateIE9, IE=EmulateIE10, IE=EmulateIE11" /><title>
+	Top 100 stocks by Market Capitalization | BSE Listed stocks Market Capitalization
+</title><meta name="description" content="Archives of Daily / Monthly Reports (EQ), Historical Data: Get the latest information about Archives of Daily / Monthly Reports (EQ), Historical Data and more! Click here to stay updated and invest wisely! Learn more about Archives of Daily / Monthly Reports (EQ), Historical Data Today, visit at bseindia.com" /><meta name="Keywords" content="Historical Prices, Equity Historical Prices, MF Historical Prices, Debt Historical Prices, historical Data, Daily historical prices, monthly historical prices, yearly historical prices, historical prices at BSE, BSE India" />	
+     <script>
+         var a = new Date();
+         var mon = a.getMonth();
+         mon = mon + 1;
+         var time = a.getDate() + "" + mon + "" + a.getFullYear() + "" + a.getHours() + "" + a.getMinutes();
+         document.write("<script type='text/javascript' src='/version.js?v=" + time + "'><\/script>");
+     </script>
+	<link href="/include/css/bootstrap.css?v=1" type="text/css" rel="stylesheet" /><link href="/include/css/style.css" type="text/css" rel="stylesheet" /><link href="/include/css/font-awesome.css" type="text/css" rel="stylesheet" />
+    
+  <script src="/include/js/jquerylatest.js"  type="text/javascript"></script>
+    <script type="text/javascript" src="https://www.bseindia.com/include/js/google_mid.js"></script>
+    <script src="/include/js/jqueryuilatest.js"></script>
+    <link href="/include/css/jquery-ui-1.12.1.min.css" rel="stylesheet" />
+    <script src="/include/js/smartNewSearchPrimary.js" type="text/javascript"></script>
+    <script src="/include/js/Eqautocomplete_sv1.js"></script>
+
+   
+    
+      <script>
+          //$(document).ready(function () {
+          window.onload = function () {
+              $('a[href*="bseindia"]').each(function () {
+                  var oldUrl = $(this).attr("href"); // Get current url
+                  var newUrl = oldUrl.replace("http://www.bseindia.com", "").replace("https://www.bseindia.com", "").replace("http://beta.bseindia.com", "").replace("https://beta.bseindia.com", ""); // Create new url
+                  $(this).attr("href", newUrl); // Set herf value
+              });
+          }//);
+    </script>
+    <script>
+        function dprint() {
+            window.print();
+        }
+    </script>
+</head>
+<body>
+    <form method="post" action="./topmarketcapitalization.aspx" id="form1">
+<div class="aspNetHidden">
+<input type="hidden" name="__VIEWSTATE" id="__VIEWSTATE" value="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" />
+</div>
+
+<div class="aspNetHidden">
+
+	<input type="hidden" name="__VIEWSTATEGENERATOR" id="__VIEWSTATEGENERATOR" value="8A73243C" />
+	<input type="hidden" name="__VIEWSTATEENCRYPTED" id="__VIEWSTATEENCRYPTED" value="" />
+	<input type="hidden" name="__EVENTVALIDATION" id="__EVENTVALIDATION" value="54mVTvPZSRY4mcq6+mXcFlEV3HSdMRC92UlKpoDyBFEflPkMvNUcKr2ignueY3zXc+JvpdzFb6iaO+Odfo+2qEAWNEIkN8ky/Mx0hIyAgVa79ytYdHQpnBWHrtdtoaM6SqhP+3i+dEOVikCzZ8dbZw==" />
+</div>
+        
+        
+
+<script src="/D90/Angular/angular.latest.js"></script>
+<script src="/D90/Angular/angular-sanitize.latest.js"></script>
+<link href="https://bnotification.bseindia.com/" rel="preconnect">
+<script src="https://bnotification.bseindia.com/socket.io/socket.io.js"></script>
+
+<script>
+    var a = new Date();
+    var mon = a.getMonth();
+    var mint = 30;
+    mon = mon + 1;
+    if (a.getMinutes() % 30 == 0) {
+        mint = a.getMinutes();
+    }
+    var time = a.getDate() + "" + mon + "" + a.getFullYear() + "" + a.getHours() + "" + mint;
+    document.write("<script type='text/javascript' src='/version.js?v=" + time + "'><\/script>");
+</script>
+<script>
+    document.write("<script type='text/javascript' src='/D90/Controller/AppnewController.js?v=" + version_cntroller + "'><\/script>");
+    document.write("<script type='text/javascript' src='/D90/Controller/factoryother.js?v=" + version_cntroller + "'><\/script>");
+    document.write("<script type='text/javascript' src='/D90/Controller/Headernew_streamController.js?v=" + version_cntroller + "'><\/script>");
+</script>
+
+<div ng-app="topHeader" ng-controller="topController">
+    <div id="topDiv"  ng-include="'/D90/Header/top_new.html'">
+
+    </div>
+    
+        <div id="Divhomemenu" ng-include="'/D90/Header/menu.html'">
+        </div>
+   
+</div>
+
+        <div style="margin-top: 10px;">
+
+             <div id="fontSize"><div id="divmain" class="body slide">
+                
+    <meta name="description" content="Top 100 BSE lndia listed Securities by Market Capitalization" />
+    <meta name="keywords" content="India Market Capitalization, BSE Market Capitalization, Market Cap, India Market Cap, BSE Market Cap " />
+
+    <style type="text/css">
+        .heading5 {
+            cursor: pointer;
+            font-family: Arial, Helvetica, sans-serif;
+            font-size: 12px;
+            font-style: normal;
+            font-weight: normal;
+            text-transform: none;
+            text-align: center;
+            vertical-align: middle;
+            color: #ffffff;
+            text-decoration: none;
+            padding-left: 10px;
+            padding-right: 10px;
+            background: #0089d0;
+            height: 30px;
+        }
+
+        .heading2 {
+            font-family: Arial, Helvetica, sans-serif;
+            font-size: 12px;
+            font-style: normal;
+            font-weight: normal;
+            text-transform: none;
+            text-align: center;
+            vertical-align: middle;
+            color: #ffffff;
+            text-decoration: none;
+            padding-left: 10px;
+            padding-right: 10px;
+            background: #0089d0;
+            height: 30px;
+        }
+
+        th.headerSortUp {
+            background-image: url(https://beta.bseindia.com/include/images/asc.gif);
+            background-position: right center;
+            background-repeat: no-repeat;
+            padding-left: 4px;
+        }
+
+        th.headerSortDown {
+            background-image: url(https://beta.bseindia.com/include/images/desc.gif);
+            background-position: right center;
+            background-repeat: no-repeat;
+            padding-left: 4px;
+        }
+
+        .cursorlink {
+            cursor: pointer;
+        }
+    </style>
+	
+<!--	FOr Google AD-->
+	
+<script async src="https://securepubads.g.doubleclick.net/tag/js/gpt.js"></script>
+<script>
+  window.googletag = window.googletag || {cmd: []};
+  googletag.cmd.push(function() {
+    googletag.defineSlot('/35735749/Eq_TopMarketCapitalization', [[728, 90], [970, 90], [234, 60], [300, 100]], 'div-gpt-ad-1586924412210-0').addService(googletag.pubads());
+    googletag.pubads().enableSingleRequest();
+    googletag.enableServices();
+  });
+</script>
+
+
+
+<script async src="https://securepubads.g.doubleclick.net/tag/js/gpt.js"></script>
+<script>
+  window.googletag = window.googletag || {cmd: []};
+  googletag.cmd.push(function() {
+    googletag.defineSlot('/35735749/Equity_Second', [[970, 90], [234, 60], [728, 90], [300, 100]], 'div-gpt-ad-1586264221225-0').addService(googletag.pubads());
+    googletag.pubads().enableSingleRequest();
+    googletag.enableServices();
+  });
+</script>
+	
+	
+<!--	Google AD--><br>
+<div align="center" class="largetable">
+	
+<!-- /35735749/Eq_TopMarketCapitalization -->
+<div id='div-gpt-ad-1586924412210-0'>
+  <script>
+    googletag.cmd.push(function() { googletag.display('div-gpt-ad-1586924412210-0'); });
+  </script>
+</div>
+	
+	</div>
+
+    <div class="whitebox">
+        <div class="container-fluid marketstartarea">
+
+            <div class="row">
+                <div class="col-lg-7">
+                    <div class=" blueheading" style="text-align: left">
+                        <div class="home_widget">
+                            <span class="page_info_title_s2">Top 100 Companies by Market Capitalization</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-5 text-right" id="">
+                    <span id="ContentPlaceHolder1_lblDate">As on 03 Jul 24 </span>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <div class="content">
+        <div class="whitebox">
+            <div class="container-fluid marketstartarea">
+
+                <input name="ctl00$ContentPlaceHolder1$hdnCode" type="hidden" id="ContentPlaceHolder1_hdnCode" />
+                <table id="ContentPlaceHolder1_tbComp" width="100%" border="0" cellspacing="0" cellpadding="0">
+	<tr>
+		<td id="ContentPlaceHolder1_Head"><b>Market Capitalization of BSE Listed Co. (<img src='https://www.bseindia.com/include/images/rs_b.gif' alt='Rs' title='Rs' /> Cr.) -  4,45,43,642.29</b></td>
+	</tr>
+	<tr>
+		<td></td>
+	</tr>
+	<tr>
+		<td>
+                            <table width="100%" border="0" cellspacing="0" cellpadding="0">
+                                <tr>
+                                    <td bgcolor="#d6d6d6">
+                                        <div>
+			<table class="mGrid" cellspacing="1" cellpadding="4" id="ContentPlaceHolder1_gvData" style="width:100%;">
+				<thead>
+					<tr class="tableheading">
+						<th scope="col">Security Code</th><th class="tableheading" scope="col" style="text-decoration:underline;">Security Name</th><th scope="col">Close(<img src='../../../include/images/rs.gif' alt='my image' />)</th><th class="tableheading" scope="col" style="text-decoration:underline;">Market Capitalization</br>(<img src='../../../include/images/rs.gif' alt='my image' /> Cr.)</th>
+					</tr>
+				</thead><tbody>
+					<tr>
+						<td class="tdcolumn" align="center">500325</td><td class="tdcolumn">
+                                                        <a id="ContentPlaceHolder1_gvData_lnk_0" class="tablebluelink" HeaderStyle-CssClass="heading5" href="https://www.bseindia.com/stock-share-price/reliance-industries-ltd/reliance/500325/" target="_blank">RELIANCE INDUSTRIES LTD.</a>
+
+                                                    </td><td class="tdcolumn text-right" style="width:70px;">
+                                                        <span id="ContentPlaceHolder1_gvData_lblTurnover_0">3105.30</span>
+                                                    </td><td class="tdcolumn text-right" style="width:100px;">
+                                                        <span id="ContentPlaceHolder1_gvData_lblTurnover_0" class="tablebluelink" HeaderStyle-CssClass="heading5">2100987.96</span>
+                                                    </td>
+					</tr><tr>
+						<td class="tdcolumn" align="center">532540</td><td class="tdcolumn">
+                                                        <a id="ContentPlaceHolder1_gvData_lnk_1" class="tablebluelink" HeaderStyle-CssClass="heading5" href="https://www.bseindia.com/stock-share-price/tata-consultancy-services-ltd/tcs/532540/" target="_blank">TATA CONSULTANCY SERVICES LTD.</a>
+
+                                                    </td><td class="tdcolumn text-right" style="width:70px;">
+                                                        <span id="ContentPlaceHolder1_gvData_lblTurnover_1">3964.85</span>
+                                                    </td><td class="tdcolumn text-right" style="width:100px;">
+                                                        <span id="ContentPlaceHolder1_gvData_lblTurnover_1" class="tablebluelink" HeaderStyle-CssClass="heading5">1434517.43</span>
+                                                    </td>
+					</tr><tr>
+						<td class="tdcolumn" align="center">500180</td><td class="tdcolumn">
+                                                        <a id="ContentPlaceHolder1_gvData_lnk_2" class="tablebluelink" HeaderStyle-CssClass="heading5" href="https://www.bseindia.com/stock-share-price/hdfc-bank-ltd/hdfcbank/500180/" target="_blank">HDFC Bank Ltd</a>
+
+                                                    </td><td class="tdcolumn text-right" style="width:70px;">
+                                                        <span id="ContentPlaceHolder1_gvData_lblTurnover_2">1768.35</span>
+                                                    </td><td class="tdcolumn text-right" style="width:100px;">
+                                                        <span id="ContentPlaceHolder1_gvData_lblTurnover_2" class="tablebluelink" HeaderStyle-CssClass="heading5">1345382.31</span>
+                                                    </td>
+					</tr><tr>
+						<td class="tdcolumn" align="center">532174</td><td class="tdcolumn">
+                                                        <a id="ContentPlaceHolder1_gvData_lnk_3" class="tablebluelink" HeaderStyle-CssClass="heading5" href="https://www.bseindia.com/stock-share-price/icici-bank-ltd/icicibank/532174/" target="_blank">ICICI BANK LTD.</a>
+
+                                                    </td><td class="tdcolumn text-right" style="width:70px;">
+                                                        <span id="ContentPlaceHolder1_gvData_lblTurnover_3">1201.25</span>
+                                                    </td><td class="tdcolumn text-right" style="width:100px;">
+                                                        <span id="ContentPlaceHolder1_gvData_lblTurnover_3" class="tablebluelink" HeaderStyle-CssClass="heading5">845222.13</span>
+                                                    </td>
+					</tr><tr>
+						<td class="tdcolumn" align="center">532454</td><td class="tdcolumn">
+                                                        <a id="ContentPlaceHolder1_gvData_lnk_4" class="tablebluelink" HeaderStyle-CssClass="heading5" href="https://www.bseindia.com/stock-share-price/bharti-airtel-ltd/bhartiartl/532454/" target="_blank">BHARTI AIRTEL LTD.</a>
+
+                                                    </td><td class="tdcolumn text-right" style="width:70px;">
+                                                        <span id="ContentPlaceHolder1_gvData_lblTurnover_4">1420.35</span>
+                                                    </td><td class="tdcolumn text-right" style="width:100px;">
+                                                        <span id="ContentPlaceHolder1_gvData_lblTurnover_4" class="tablebluelink" HeaderStyle-CssClass="heading5">808303.17</span>
+                                                    </td>
+					</tr><tr>
+						<td class="tdcolumn" align="center">500112</td><td class="tdcolumn">
+                                                        <a id="ContentPlaceHolder1_gvData_lnk_5" class="tablebluelink" HeaderStyle-CssClass="heading5" href="https://www.bseindia.com/stock-share-price/state-bank-of-india/sbin/500112/" target="_blank">STATE BANK OF INDIA</a>
+
+                                                    </td><td class="tdcolumn text-right" style="width:70px;">
+                                                        <span id="ContentPlaceHolder1_gvData_lblTurnover_5">840.10</span>
+                                                    </td><td class="tdcolumn text-right" style="width:100px;">
+                                                        <span id="ContentPlaceHolder1_gvData_lblTurnover_5" class="tablebluelink" HeaderStyle-CssClass="heading5">749756.65</span>
+                                                    </td>
+					</tr><tr>
+						<td class="tdcolumn" align="center">500209</td><td class="tdcolumn">
+                                                        <a id="ContentPlaceHolder1_gvData_lnk_6" class="tablebluelink" HeaderStyle-CssClass="heading5" href="https://www.bseindia.com/stock-share-price/infosys-ltd/infy/500209/" target="_blank">INFOSYS LTD.</a>
+
+                                                    </td><td class="tdcolumn text-right" style="width:70px;">
+                                                        <span id="ContentPlaceHolder1_gvData_lblTurnover_6">1627.60</span>
+                                                    </td><td class="tdcolumn text-right" style="width:100px;">
+                                                        <span id="ContentPlaceHolder1_gvData_lblTurnover_6" class="tablebluelink" HeaderStyle-CssClass="heading5">675784.15</span>
+                                                    </td>
+					</tr><tr>
+						<td class="tdcolumn" align="center">543526</td><td class="tdcolumn">
+                                                        <a id="ContentPlaceHolder1_gvData_lnk_7" class="tablebluelink" HeaderStyle-CssClass="heading5" href="https://www.bseindia.com/stock-share-price/life-insurance-corporation-of-india/lici/543526/" target="_blank">Life Insurance Corporation of India</a>
+
+                                                    </td><td class="tdcolumn text-right" style="width:70px;">
+                                                        <span id="ContentPlaceHolder1_gvData_lblTurnover_7">987.80</span>
+                                                    </td><td class="tdcolumn text-right" style="width:100px;">
+                                                        <span id="ContentPlaceHolder1_gvData_lblTurnover_7" class="tablebluelink" HeaderStyle-CssClass="heading5">624783.27</span>
+                                                    </td>
+					</tr><tr>
+						<td class="tdcolumn" align="center">500696</td><td class="tdcolumn">
+                                                        <a id="ContentPlaceHolder1_gvData_lnk_8" class="tablebluelink" HeaderStyle-CssClass="heading5" href="https://www.bseindia.com/stock-share-price/hindustan-unilever-ltd/hindunilvr/500696/" target="_blank">HINDUSTAN UNILEVER LTD.</a>
+
+                                                    </td><td class="tdcolumn text-right" style="width:70px;">
+                                                        <span id="ContentPlaceHolder1_gvData_lblTurnover_8">2510.25</span>
+                                                    </td><td class="tdcolumn text-right" style="width:100px;">
+                                                        <span id="ContentPlaceHolder1_gvData_lblTurnover_8" class="tablebluelink" HeaderStyle-CssClass="heading5">589806.15</span>
+                                                    </td>
+					</tr><tr>
+						<td class="tdcolumn" align="center">500875</td><td class="tdcolumn">
+                                                        <a id="ContentPlaceHolder1_gvData_lnk_9" class="tablebluelink" HeaderStyle-CssClass="heading5" href="https://www.bseindia.com/stock-share-price/itc-ltd/itc/500875/" target="_blank">ITC LTD.</a>
+
+                                                    </td><td class="tdcolumn text-right" style="width:70px;">
+                                                        <span id="ContentPlaceHolder1_gvData_lblTurnover_9">428.45</span>
+                                                    </td><td class="tdcolumn text-right" style="width:100px;">
+                                                        <span id="ContentPlaceHolder1_gvData_lblTurnover_9" class="tablebluelink" HeaderStyle-CssClass="heading5">534907.89</span>
+                                                    </td>
+					</tr><tr>
+						<td class="tdcolumn" align="center">500510</td><td class="tdcolumn">
+                                                        <a id="ContentPlaceHolder1_gvData_lnk_10" class="tablebluelink" HeaderStyle-CssClass="heading5" href="https://www.bseindia.com/stock-share-price/larsen--toubro-ltd/lt/500510/" target="_blank">LARSEN & TOUBRO LTD.</a>
+
+                                                    </td><td class="tdcolumn text-right" style="width:70px;">
+                                                        <span id="ContentPlaceHolder1_gvData_lblTurnover_10">3614.80</span>
+                                                    </td><td class="tdcolumn text-right" style="width:100px;">
+                                                        <span id="ContentPlaceHolder1_gvData_lblTurnover_10" class="tablebluelink" HeaderStyle-CssClass="heading5">496980.09</span>
+                                                    </td>
+					</tr><tr>
+						<td class="tdcolumn" align="center">500034</td><td class="tdcolumn">
+                                                        <a id="ContentPlaceHolder1_gvData_lnk_11" class="tablebluelink" HeaderStyle-CssClass="heading5" href="https://www.bseindia.com/stock-share-price/bajaj-finance-limited/bajfinance/500034/" target="_blank">Bajaj Finance Limited</a>
+
+                                                    </td><td class="tdcolumn text-right" style="width:70px;">
+                                                        <span id="ContentPlaceHolder1_gvData_lblTurnover_11">7251.80</span>
+                                                    </td><td class="tdcolumn text-right" style="width:100px;">
+                                                        <span id="ContentPlaceHolder1_gvData_lblTurnover_11" class="tablebluelink" HeaderStyle-CssClass="heading5">448883.75</span>
+                                                    </td>
+					</tr><tr>
+						<td class="tdcolumn" align="center">532281</td><td class="tdcolumn">
+                                                        <a id="ContentPlaceHolder1_gvData_lnk_12" class="tablebluelink" HeaderStyle-CssClass="heading5" href="https://www.bseindia.com/stock-share-price/hcl-technologies-ltd/hcltech/532281/" target="_blank">HCL TECHNOLOGIES LTD.</a>
+
+                                                    </td><td class="tdcolumn text-right" style="width:70px;">
+                                                        <span id="ContentPlaceHolder1_gvData_lblTurnover_12">1480.75</span>
+                                                    </td><td class="tdcolumn text-right" style="width:100px;">
+                                                        <span id="ContentPlaceHolder1_gvData_lblTurnover_12" class="tablebluelink" HeaderStyle-CssClass="heading5">401825.96</span>
+                                                    </td>
+					</tr><tr>
+						<td class="tdcolumn" align="center">532215</td><td class="tdcolumn">
+                                                        <a id="ContentPlaceHolder1_gvData_lnk_13" class="tablebluelink" HeaderStyle-CssClass="heading5" href="https://www.bseindia.com/stock-share-price/axis-bank-ltd/axisbank/532215/" target="_blank">AXIS BANK LTD.</a>
+
+                                                    </td><td class="tdcolumn text-right" style="width:70px;">
+                                                        <span id="ContentPlaceHolder1_gvData_lblTurnover_13">1279.75</span>
+                                                    </td><td class="tdcolumn text-right" style="width:100px;">
+                                                        <span id="ContentPlaceHolder1_gvData_lblTurnover_13" class="tablebluelink" HeaderStyle-CssClass="heading5">395474.29</span>
+                                                    </td>
+					</tr><tr>
+						<td class="tdcolumn" align="center">532500</td><td class="tdcolumn">
+                                                        <a id="ContentPlaceHolder1_gvData_lnk_14" class="tablebluelink" HeaderStyle-CssClass="heading5" href="https://www.bseindia.com/stock-share-price/maruti-suzuki-india-ltd/maruti/532500/" target="_blank">MARUTI SUZUKI INDIA LTD.</a>
+
+                                                    </td><td class="tdcolumn text-right" style="width:70px;">
+                                                        <span id="ContentPlaceHolder1_gvData_lblTurnover_14">12121.35</span>
+                                                    </td><td class="tdcolumn text-right" style="width:100px;">
+                                                        <span id="ContentPlaceHolder1_gvData_lblTurnover_14" class="tablebluelink" HeaderStyle-CssClass="heading5">381098.36</span>
+                                                    </td>
+					</tr><tr>
+						<td class="tdcolumn" align="center">524715</td><td class="tdcolumn">
+                                                        <a id="ContentPlaceHolder1_gvData_lnk_15" class="tablebluelink" HeaderStyle-CssClass="heading5" href="https://www.bseindia.com/stock-share-price/sun-pharmaceutical-industries-ltd/sunpharma/524715/" target="_blank">SUN PHARMACEUTICAL INDUSTRIES LTD.</a>
+
+                                                    </td><td class="tdcolumn text-right" style="width:70px;">
+                                                        <span id="ContentPlaceHolder1_gvData_lblTurnover_15">1532.55</span>
+                                                    </td><td class="tdcolumn text-right" style="width:100px;">
+                                                        <span id="ContentPlaceHolder1_gvData_lblTurnover_15" class="tablebluelink" HeaderStyle-CssClass="heading5">367701.10</span>
+                                                    </td>
+					</tr><tr>
+						<td class="tdcolumn" align="center">541154</td><td class="tdcolumn">
+                                                        <a id="ContentPlaceHolder1_gvData_lnk_16" class="tablebluelink" HeaderStyle-CssClass="heading5" href="https://www.bseindia.com/stock-share-price/hindustan-aeronautics-ltd/hal/541154/" target="_blank">Hindustan Aeronautics Ltd</a>
+
+                                                    </td><td class="tdcolumn text-right" style="width:70px;">
+                                                        <span id="ContentPlaceHolder1_gvData_lblTurnover_16">5457.40</span>
+                                                    </td><td class="tdcolumn text-right" style="width:100px;">
+                                                        <span id="ContentPlaceHolder1_gvData_lblTurnover_16" class="tablebluelink" HeaderStyle-CssClass="heading5">364977.27</span>
+                                                    </td>
+					</tr><tr>
+						<td class="tdcolumn" align="center">512599</td><td class="tdcolumn">
+                                                        <a id="ContentPlaceHolder1_gvData_lnk_17" class="tablebluelink" HeaderStyle-CssClass="heading5" href="https://www.bseindia.com/stock-share-price/adani-enterprises-ltd/adanient/512599/" target="_blank">ADANI ENTERPRISES LTD.</a>
+
+                                                    </td><td class="tdcolumn text-right" style="width:70px;">
+                                                        <span id="ContentPlaceHolder1_gvData_lblTurnover_17">3189.65</span>
+                                                    </td><td class="tdcolumn text-right" style="width:100px;">
+                                                        <span id="ContentPlaceHolder1_gvData_lblTurnover_17" class="tablebluelink" HeaderStyle-CssClass="heading5">363620.46</span>
+                                                    </td>
+					</tr><tr>
+						<td class="tdcolumn" align="center">532555</td><td class="tdcolumn">
+                                                        <a id="ContentPlaceHolder1_gvData_lnk_18" class="tablebluelink" HeaderStyle-CssClass="heading5" href="https://www.bseindia.com/stock-share-price/ntpc-ltd/ntpc/532555/" target="_blank">NTPC LTD.</a>
+
+                                                    </td><td class="tdcolumn text-right" style="width:70px;">
+                                                        <span id="ContentPlaceHolder1_gvData_lblTurnover_18">372.60</span>
+                                                    </td><td class="tdcolumn text-right" style="width:100px;">
+                                                        <span id="ContentPlaceHolder1_gvData_lblTurnover_18" class="tablebluelink" HeaderStyle-CssClass="heading5">361297.78</span>
+                                                    </td>
+					</tr><tr>
+						<td class="tdcolumn" align="center">500247</td><td class="tdcolumn">
+                                                        <a id="ContentPlaceHolder1_gvData_lnk_19" class="tablebluelink" HeaderStyle-CssClass="heading5" href="https://www.bseindia.com/stock-share-price/kotak-mahindra-bank-ltd/kotakbank/500247/" target="_blank">KOTAK MAHINDRA BANK LTD.</a>
+
+                                                    </td><td class="tdcolumn text-right" style="width:70px;">
+                                                        <span id="ContentPlaceHolder1_gvData_lblTurnover_19">1811.60</span>
+                                                    </td><td class="tdcolumn text-right" style="width:100px;">
+                                                        <span id="ContentPlaceHolder1_gvData_lblTurnover_19" class="tablebluelink" HeaderStyle-CssClass="heading5">360137.26</span>
+                                                    </td>
+					</tr><tr>
+						<td class="tdcolumn" align="center">500520</td><td class="tdcolumn">
+                                                        <a id="ContentPlaceHolder1_gvData_lnk_20" class="tablebluelink" HeaderStyle-CssClass="heading5" href="https://www.bseindia.com/stock-share-price/mahindra--mahindra-ltd/mm/500520/" target="_blank">MAHINDRA & MAHINDRA LTD.</a>
+
+                                                    </td><td class="tdcolumn text-right" style="width:70px;">
+                                                        <span id="ContentPlaceHolder1_gvData_lblTurnover_20">2877.80</span>
+                                                    </td><td class="tdcolumn text-right" style="width:100px;">
+                                                        <span id="ContentPlaceHolder1_gvData_lblTurnover_20" class="tablebluelink" HeaderStyle-CssClass="heading5">357862.73</span>
+                                                    </td>
+					</tr><tr>
+						<td class="tdcolumn" align="center">500312</td><td class="tdcolumn">
+                                                        <a id="ContentPlaceHolder1_gvData_lnk_21" class="tablebluelink" HeaderStyle-CssClass="heading5" href="https://www.bseindia.com/stock-share-price/oil-and-natural-gas-corporation-ltd/ongc/500312/" target="_blank">Oil and Natural Gas Corporation Ltd</a>
+
+                                                    </td><td class="tdcolumn text-right" style="width:70px;">
+                                                        <span id="ContentPlaceHolder1_gvData_lblTurnover_21">274.75</span>
+                                                    </td><td class="tdcolumn text-right" style="width:100px;">
+                                                        <span id="ContentPlaceHolder1_gvData_lblTurnover_21" class="tablebluelink" HeaderStyle-CssClass="heading5">345643.17</span>
+                                                    </td>
+					</tr><tr>
+						<td class="tdcolumn" align="center">532538</td><td class="tdcolumn">
+                                                        <a id="ContentPlaceHolder1_gvData_lnk_22" class="tablebluelink" HeaderStyle-CssClass="heading5" href="https://www.bseindia.com/stock-share-price/ultratech-cement-ltd/ultracemco/532538/" target="_blank">ULTRATECH CEMENT LTD.</a>
+
+                                                    </td><td class="tdcolumn text-right" style="width:70px;">
+                                                        <span id="ContentPlaceHolder1_gvData_lblTurnover_22">11871.75</span>
+                                                    </td><td class="tdcolumn text-right" style="width:100px;">
+                                                        <span id="ContentPlaceHolder1_gvData_lblTurnover_22" class="tablebluelink" HeaderStyle-CssClass="heading5">342734.24</span>
+                                                    </td>
+					</tr><tr>
+						<td class="tdcolumn" align="center">532921</td><td class="tdcolumn">
+                                                        <a id="ContentPlaceHolder1_gvData_lnk_23" class="tablebluelink" HeaderStyle-CssClass="heading5" href="https://www.bseindia.com/stock-share-price/adani-ports-and-special-economic-zone-ltd/adaniports/532921/" target="_blank">ADANI PORTS AND SPECIAL ECONOMIC ZONE LTD.</a>
+
+                                                    </td><td class="tdcolumn text-right" style="width:70px;">
+                                                        <span id="ContentPlaceHolder1_gvData_lblTurnover_23">1510.75</span>
+                                                    </td><td class="tdcolumn text-right" style="width:100px;">
+                                                        <span id="ContentPlaceHolder1_gvData_lblTurnover_23" class="tablebluelink" HeaderStyle-CssClass="heading5">326342.99</span>
+                                                    </td>
+					</tr><tr>
+						<td class="tdcolumn" align="center">500570</td><td class="tdcolumn">
+                                                        <a id="ContentPlaceHolder1_gvData_lnk_24" class="tablebluelink" HeaderStyle-CssClass="heading5" href="https://www.bseindia.com/stock-share-price/tata-motors-ltd/tatamotors/500570/" target="_blank">TATA MOTORS LTD.</a>
+
+                                                    </td><td class="tdcolumn text-right" style="width:70px;">
+                                                        <span id="ContentPlaceHolder1_gvData_lblTurnover_24">975.65</span>
+                                                    </td><td class="tdcolumn text-right" style="width:100px;">
+                                                        <span id="ContentPlaceHolder1_gvData_lblTurnover_24" class="tablebluelink" HeaderStyle-CssClass="heading5">324304.00</span>
+                                                    </td>
+					</tr><tr>
+						<td class="tdcolumn" align="center">532898</td><td class="tdcolumn">
+                                                        <a id="ContentPlaceHolder1_gvData_lnk_25" class="tablebluelink" HeaderStyle-CssClass="heading5" href="https://www.bseindia.com/stock-share-price/power-grid-corporation-of-india-ltd/powergrid/532898/" target="_blank">POWER GRID CORPORATION OF INDIA LTD.</a>
+
+                                                    </td><td class="tdcolumn text-right" style="width:70px;">
+                                                        <span id="ContentPlaceHolder1_gvData_lblTurnover_25">335.40</span>
+                                                    </td><td class="tdcolumn text-right" style="width:100px;">
+                                                        <span id="ContentPlaceHolder1_gvData_lblTurnover_25" class="tablebluelink" HeaderStyle-CssClass="heading5">311942.25</span>
+                                                    </td>
+					</tr><tr>
+						<td class="tdcolumn" align="center">540376</td><td class="tdcolumn">
+                                                        <a id="ContentPlaceHolder1_gvData_lnk_26" class="tablebluelink" HeaderStyle-CssClass="heading5" href="https://www.bseindia.com/stock-share-price/avenue-supermarts-ltd/dmart/540376/" target="_blank">Avenue Supermarts Ltd</a>
+
+                                                    </td><td class="tdcolumn text-right" style="width:70px;">
+                                                        <span id="ContentPlaceHolder1_gvData_lblTurnover_26">4792.40</span>
+                                                    </td><td class="tdcolumn text-right" style="width:100px;">
+                                                        <span id="ContentPlaceHolder1_gvData_lblTurnover_26" class="tablebluelink" HeaderStyle-CssClass="heading5">311857.32</span>
+                                                    </td>
+					</tr><tr>
+						<td class="tdcolumn" align="center">533278</td><td class="tdcolumn">
+                                                        <a id="ContentPlaceHolder1_gvData_lnk_27" class="tablebluelink" HeaderStyle-CssClass="heading5" href="https://www.bseindia.com/stock-share-price/coal-india-ltd/coalindia/533278/" target="_blank">COAL INDIA LTD.</a>
+
+                                                    </td><td class="tdcolumn text-right" style="width:70px;">
+                                                        <span id="ContentPlaceHolder1_gvData_lblTurnover_27">485.10</span>
+                                                    </td><td class="tdcolumn text-right" style="width:100px;">
+                                                        <span id="ContentPlaceHolder1_gvData_lblTurnover_27" class="tablebluelink" HeaderStyle-CssClass="heading5">298953.95</span>
+                                                    </td>
+					</tr><tr>
+						<td class="tdcolumn" align="center">500114</td><td class="tdcolumn">
+                                                        <a id="ContentPlaceHolder1_gvData_lnk_28" class="tablebluelink" HeaderStyle-CssClass="heading5" href="https://www.bseindia.com/stock-share-price/titan-company-limited/titan/500114/" target="_blank">Titan Company Limited</a>
+
+                                                    </td><td class="tdcolumn text-right" style="width:70px;">
+                                                        <span id="ContentPlaceHolder1_gvData_lblTurnover_28">3360.90</span>
+                                                    </td><td class="tdcolumn text-right" style="width:100px;">
+                                                        <span id="ContentPlaceHolder1_gvData_lblTurnover_28" class="tablebluelink" HeaderStyle-CssClass="heading5">298376.05</span>
+                                                    </td>
+					</tr><tr>
+						<td class="tdcolumn" align="center">500188</td><td class="tdcolumn">
+                                                        <a id="ContentPlaceHolder1_gvData_lnk_29" class="tablebluelink" HeaderStyle-CssClass="heading5" href="https://www.bseindia.com/stock-share-price/hindustan-zinc-ltd/hindzinc/500188/" target="_blank">HINDUSTAN ZINC LTD.</a>
+
+                                                    </td><td class="tdcolumn text-right" style="width:70px;">
+                                                        <span id="ContentPlaceHolder1_gvData_lblTurnover_29">673.05</span>
+                                                    </td><td class="tdcolumn text-right" style="width:100px;">
+                                                        <span id="ContentPlaceHolder1_gvData_lblTurnover_29" class="tablebluelink" HeaderStyle-CssClass="heading5">284385.10</span>
+                                                    </td>
+					</tr><tr>
+						<td class="tdcolumn" align="center">507685</td><td class="tdcolumn">
+                                                        <a id="ContentPlaceHolder1_gvData_lnk_30" class="tablebluelink" HeaderStyle-CssClass="heading5" href="https://www.bseindia.com/stock-share-price/wipro-ltd/wipro/507685/" target="_blank">WIPRO LTD.</a>
+
+                                                    </td><td class="tdcolumn text-right" style="width:70px;">
+                                                        <span id="ContentPlaceHolder1_gvData_lblTurnover_30">539.05</span>
+                                                    </td><td class="tdcolumn text-right" style="width:100px;">
+                                                        <span id="ContentPlaceHolder1_gvData_lblTurnover_30" class="tablebluelink" HeaderStyle-CssClass="heading5">281932.00</span>
+                                                    </td>
+					</tr><tr>
+						<td class="tdcolumn" align="center">541450</td><td class="tdcolumn">
+                                                        <a id="ContentPlaceHolder1_gvData_lnk_31" class="tablebluelink" HeaderStyle-CssClass="heading5" href="https://www.bseindia.com/stock-share-price/adani-green-energy-ltd/adanigreen/541450/" target="_blank">Adani Green Energy Ltd</a>
+
+                                                    </td><td class="tdcolumn text-right" style="width:70px;">
+                                                        <span id="ContentPlaceHolder1_gvData_lblTurnover_31">1774.45</span>
+                                                    </td><td class="tdcolumn text-right" style="width:100px;">
+                                                        <span id="ContentPlaceHolder1_gvData_lblTurnover_31" class="tablebluelink" HeaderStyle-CssClass="heading5">281078.64</span>
+                                                    </td>
+					</tr><tr>
+						<td class="tdcolumn" align="center">500820</td><td class="tdcolumn">
+                                                        <a id="ContentPlaceHolder1_gvData_lnk_32" class="tablebluelink" HeaderStyle-CssClass="heading5" href="https://www.bseindia.com/stock-share-price/asian-paints-ltd/asianpaint/500820/" target="_blank">ASIAN PAINTS LTD.</a>
+
+                                                    </td><td class="tdcolumn text-right" style="width:70px;">
+                                                        <span id="ContentPlaceHolder1_gvData_lblTurnover_32">2925.25</span>
+                                                    </td><td class="tdcolumn text-right" style="width:100px;">
+                                                        <span id="ContentPlaceHolder1_gvData_lblTurnover_32" class="tablebluelink" HeaderStyle-CssClass="heading5">280589.33</span>
+                                                    </td>
+					</tr><tr>
+						<td class="tdcolumn" align="center">500550</td><td class="tdcolumn">
+                                                        <a id="ContentPlaceHolder1_gvData_lnk_33" class="tablebluelink" HeaderStyle-CssClass="heading5" href="https://www.bseindia.com/stock-share-price/siemens-ltd/siemens/500550/" target="_blank">SIEMENS LTD.</a>
+
+                                                    </td><td class="tdcolumn text-right" style="width:70px;">
+                                                        <span id="ContentPlaceHolder1_gvData_lblTurnover_33">7797.30</span>
+                                                    </td><td class="tdcolumn text-right" style="width:100px;">
+                                                        <span id="ContentPlaceHolder1_gvData_lblTurnover_33" class="tablebluelink" HeaderStyle-CssClass="heading5">277677.65</span>
+                                                    </td>
+					</tr><tr>
+						<td class="tdcolumn" align="center">533096</td><td class="tdcolumn">
+                                                        <a id="ContentPlaceHolder1_gvData_lnk_34" class="tablebluelink" HeaderStyle-CssClass="heading5" href="https://www.bseindia.com/stock-share-price/adani-power-ltd/adanipower/533096/" target="_blank">ADANI POWER LTD.</a>
+
+                                                    </td><td class="tdcolumn text-right" style="width:70px;">
+                                                        <span id="ContentPlaceHolder1_gvData_lblTurnover_34">715.00</span>
+                                                    </td><td class="tdcolumn text-right" style="width:100px;">
+                                                        <span id="ContentPlaceHolder1_gvData_lblTurnover_34" class="tablebluelink" HeaderStyle-CssClass="heading5">275771.13</span>
+                                                    </td>
+					</tr><tr>
+						<td class="tdcolumn" align="center">532977</td><td class="tdcolumn">
+                                                        <a id="ContentPlaceHolder1_gvData_lnk_35" class="tablebluelink" HeaderStyle-CssClass="heading5" href="https://www.bseindia.com/stock-share-price/bajaj-auto-ltd/bajaj-auto/532977/" target="_blank">BAJAJ AUTO LTD.</a>
+
+                                                    </td><td class="tdcolumn text-right" style="width:70px;">
+                                                        <span id="ContentPlaceHolder1_gvData_lblTurnover_35">9424.40</span>
+                                                    </td><td class="tdcolumn text-right" style="width:100px;">
+                                                        <span id="ContentPlaceHolder1_gvData_lblTurnover_35" class="tablebluelink" HeaderStyle-CssClass="heading5">263110.17</span>
+                                                    </td>
+					</tr><tr>
+						<td class="tdcolumn" align="center">532978</td><td class="tdcolumn">
+                                                        <a id="ContentPlaceHolder1_gvData_lnk_36" class="tablebluelink" HeaderStyle-CssClass="heading5" href="https://www.bseindia.com/stock-share-price/bajaj-finserv-ltd/bajajfinsv/532978/" target="_blank">BAJAJ FINSERV LTD.</a>
+
+                                                    </td><td class="tdcolumn text-right" style="width:70px;">
+                                                        <span id="ContentPlaceHolder1_gvData_lblTurnover_36">1594.60</span>
+                                                    </td><td class="tdcolumn text-right" style="width:100px;">
+                                                        <span id="ContentPlaceHolder1_gvData_lblTurnover_36" class="tablebluelink" HeaderStyle-CssClass="heading5">254603.74</span>
+                                                    </td>
+					</tr><tr>
+						<td class="tdcolumn" align="center">500790</td><td class="tdcolumn">
+                                                        <a id="ContentPlaceHolder1_gvData_lnk_37" class="tablebluelink" HeaderStyle-CssClass="heading5" href="https://www.bseindia.com/stock-share-price/nestle-india-ltd/nestleind/500790/" target="_blank">NESTLE INDIA LTD.</a>
+
+                                                    </td><td class="tdcolumn text-right" style="width:70px;">
+                                                        <span id="ContentPlaceHolder1_gvData_lblTurnover_37">2554.00</span>
+                                                    </td><td class="tdcolumn text-right" style="width:100px;">
+                                                        <span id="ContentPlaceHolder1_gvData_lblTurnover_37" class="tablebluelink" HeaderStyle-CssClass="heading5">246245.74</span>
+                                                    </td>
+					</tr><tr>
+						<td class="tdcolumn" align="center">530965</td><td class="tdcolumn">
+                                                        <a id="ContentPlaceHolder1_gvData_lnk_38" class="tablebluelink" HeaderStyle-CssClass="heading5" href="https://www.bseindia.com/stock-share-price/indian-oil-corporation-ltd/ioc/530965/" target="_blank">INDIAN OIL CORPORATION LTD.</a>
+
+                                                    </td><td class="tdcolumn text-right" style="width:70px;">
+                                                        <span id="ContentPlaceHolder1_gvData_lblTurnover_38">169.30</span>
+                                                    </td><td class="tdcolumn text-right" style="width:100px;">
+                                                        <span id="ContentPlaceHolder1_gvData_lblTurnover_38" class="tablebluelink" HeaderStyle-CssClass="heading5">239072.57</span>
+                                                    </td>
+					</tr><tr>
+						<td class="tdcolumn" align="center">500228</td><td class="tdcolumn">
+                                                        <a id="ContentPlaceHolder1_gvData_lnk_39" class="tablebluelink" HeaderStyle-CssClass="heading5" href="https://www.bseindia.com/stock-share-price/jsw-steel-ltd/jswsteel/500228/" target="_blank">JSW STEEL LTD.</a>
+
+                                                    </td><td class="tdcolumn text-right" style="width:70px;">
+                                                        <span id="ContentPlaceHolder1_gvData_lblTurnover_39">950.25</span>
+                                                    </td><td class="tdcolumn text-right" style="width:100px;">
+                                                        <span id="ContentPlaceHolder1_gvData_lblTurnover_39" class="tablebluelink" HeaderStyle-CssClass="heading5">232379.26</span>
+                                                    </td>
+					</tr><tr>
+						<td class="tdcolumn" align="center">543257</td><td class="tdcolumn">
+                                                        <a id="ContentPlaceHolder1_gvData_lnk_40" class="tablebluelink" HeaderStyle-CssClass="heading5" href="https://www.bseindia.com/stock-share-price/indian-railway-finance-corporation-ltd/irfc/543257/" target="_blank">Indian Railway Finance Corporation Ltd</a>
+
+                                                    </td><td class="tdcolumn text-right" style="width:70px;">
+                                                        <span id="ContentPlaceHolder1_gvData_lblTurnover_40">176.50</span>
+                                                    </td><td class="tdcolumn text-right" style="width:100px;">
+                                                        <span id="ContentPlaceHolder1_gvData_lblTurnover_40" class="tablebluelink" HeaderStyle-CssClass="heading5">230659.13</span>
+                                                    </td>
+					</tr><tr>
+						<td class="tdcolumn" align="center">500049</td><td class="tdcolumn">
+                                                        <a id="ContentPlaceHolder1_gvData_lnk_41" class="tablebluelink" HeaderStyle-CssClass="heading5" href="https://www.bseindia.com/stock-share-price/bharat-electronics-ltd/bel/500049/" target="_blank">BHARAT ELECTRONICS LTD.</a>
+
+                                                    </td><td class="tdcolumn text-right" style="width:70px;">
+                                                        <span id="ContentPlaceHolder1_gvData_lblTurnover_41">314.55</span>
+                                                    </td><td class="tdcolumn text-right" style="width:100px;">
+                                                        <span id="ContentPlaceHolder1_gvData_lblTurnover_41" class="tablebluelink" HeaderStyle-CssClass="heading5">229929.09</span>
+                                                    </td>
+					</tr><tr>
+						<td class="tdcolumn" align="center">543940</td><td class="tdcolumn">
+                                                        <a id="ContentPlaceHolder1_gvData_lnk_42" class="tablebluelink" HeaderStyle-CssClass="heading5" href="https://www.bseindia.com/stock-share-price/jio-financial-services-ltd/jiofin/543940/" target="_blank">Jio Financial Services Ltd</a>
+
+                                                    </td><td class="tdcolumn text-right" style="width:70px;">
+                                                        <span id="ContentPlaceHolder1_gvData_lblTurnover_42">351.25</span>
+                                                    </td><td class="tdcolumn text-right" style="width:100px;">
+                                                        <span id="ContentPlaceHolder1_gvData_lblTurnover_42" class="tablebluelink" HeaderStyle-CssClass="heading5">223159.11</span>
+                                                    </td>
+					</tr><tr>
+						<td class="tdcolumn" align="center">500470</td><td class="tdcolumn">
+                                                        <a id="ContentPlaceHolder1_gvData_lnk_43" class="tablebluelink" HeaderStyle-CssClass="heading5" href="https://www.bseindia.com/stock-share-price/tata-steel-ltd/tatasteel/500470/" target="_blank">TATA STEEL LTD.</a>
+
+                                                    </td><td class="tdcolumn text-right" style="width:70px;">
+                                                        <span id="ContentPlaceHolder1_gvData_lblTurnover_43">176.35</span>
+                                                    </td><td class="tdcolumn text-right" style="width:100px;">
+                                                        <span id="ContentPlaceHolder1_gvData_lblTurnover_43" class="tablebluelink" HeaderStyle-CssClass="heading5">220145.51</span>
+                                                    </td>
+					</tr><tr>
+						<td class="tdcolumn" align="center">540180</td><td class="tdcolumn">
+                                                        <a id="ContentPlaceHolder1_gvData_lnk_44" class="tablebluelink" HeaderStyle-CssClass="heading5" href="https://www.bseindia.com/stock-share-price/varun-beverages-ltd/vbl/540180/" target="_blank">Varun Beverages Ltd</a>
+
+                                                    </td><td class="tdcolumn text-right" style="width:70px;">
+                                                        <span id="ContentPlaceHolder1_gvData_lblTurnover_44">1612.80</span>
+                                                    </td><td class="tdcolumn text-right" style="width:100px;">
+                                                        <span id="ContentPlaceHolder1_gvData_lblTurnover_44" class="tablebluelink" HeaderStyle-CssClass="heading5">209573.75</span>
+                                                    </td>
+					</tr><tr>
+						<td class="tdcolumn" align="center">532868</td><td class="tdcolumn">
+                                                        <a id="ContentPlaceHolder1_gvData_lnk_45" class="tablebluelink" HeaderStyle-CssClass="heading5" href="https://www.bseindia.com/stock-share-price/dlf-ltd/dlf/532868/" target="_blank">DLF LTD.</a>
+
+                                                    </td><td class="tdcolumn text-right" style="width:70px;">
+                                                        <span id="ContentPlaceHolder1_gvData_lblTurnover_45">840.70</span>
+                                                    </td><td class="tdcolumn text-right" style="width:100px;">
+                                                        <span id="ContentPlaceHolder1_gvData_lblTurnover_45" class="tablebluelink" HeaderStyle-CssClass="heading5">208099.46</span>
+                                                    </td>
+					</tr><tr>
+						<td class="tdcolumn" align="center">500251</td><td class="tdcolumn">
+                                                        <a id="ContentPlaceHolder1_gvData_lnk_46" class="tablebluelink" HeaderStyle-CssClass="heading5" href="https://www.bseindia.com/stock-share-price/trent-ltd/trent/500251/" target="_blank">TRENT LTD.</a>
+
+                                                    </td><td class="tdcolumn text-right" style="width:70px;">
+                                                        <span id="ContentPlaceHolder1_gvData_lblTurnover_46">5494.00</span>
+                                                    </td><td class="tdcolumn text-right" style="width:100px;">
+                                                        <span id="ContentPlaceHolder1_gvData_lblTurnover_46" class="tablebluelink" HeaderStyle-CssClass="heading5">195304.81</span>
+                                                    </td>
+					</tr><tr>
+						<td class="tdcolumn" align="center">500300</td><td class="tdcolumn">
+                                                        <a id="ContentPlaceHolder1_gvData_lnk_47" class="tablebluelink" HeaderStyle-CssClass="heading5" href="https://www.bseindia.com/stock-share-price/grasim-industries-ltd/grasim/500300/" target="_blank">GRASIM INDUSTRIES LTD.</a>
+
+                                                    </td><td class="tdcolumn text-right" style="width:70px;">
+                                                        <span id="ContentPlaceHolder1_gvData_lblTurnover_47">2741.90</span>
+                                                    </td><td class="tdcolumn text-right" style="width:100px;">
+                                                        <span id="ContentPlaceHolder1_gvData_lblTurnover_47" class="tablebluelink" HeaderStyle-CssClass="heading5">186600.04</span>
+                                                    </td>
+					</tr><tr>
+						<td class="tdcolumn" align="center">543320</td><td class="tdcolumn">
+                                                        <a id="ContentPlaceHolder1_gvData_lnk_48" class="tablebluelink" HeaderStyle-CssClass="heading5" href="https://www.bseindia.com/stock-share-price/zomato-ltd/zomato/543320/" target="_blank">Zomato Ltd</a>
+
+                                                    </td><td class="tdcolumn text-right" style="width:70px;">
+                                                        <span id="ContentPlaceHolder1_gvData_lblTurnover_48">208.15</span>
+                                                    </td><td class="tdcolumn text-right" style="width:100px;">
+                                                        <span id="ContentPlaceHolder1_gvData_lblTurnover_48" class="tablebluelink" HeaderStyle-CssClass="heading5">183733.70</span>
+                                                    </td>
+					</tr><tr>
+						<td class="tdcolumn" align="center">500002</td><td class="tdcolumn">
+                                                        <a id="ContentPlaceHolder1_gvData_lnk_49" class="tablebluelink" HeaderStyle-CssClass="heading5" href="https://www.bseindia.com/stock-share-price/abb-india-limited/abb/500002/" target="_blank">ABB India Limited</a>
+
+                                                    </td><td class="tdcolumn text-right" style="width:70px;">
+                                                        <span id="ContentPlaceHolder1_gvData_lblTurnover_49">8614.90</span>
+                                                    </td><td class="tdcolumn text-right" style="width:100px;">
+                                                        <span id="ContentPlaceHolder1_gvData_lblTurnover_49" class="tablebluelink" HeaderStyle-CssClass="heading5">182556.95</span>
+                                                    </td>
+					</tr><tr>
+						<td class="tdcolumn" align="center">532810</td><td class="tdcolumn">
+                                                        <a id="ContentPlaceHolder1_gvData_lnk_50" class="tablebluelink" HeaderStyle-CssClass="heading5" href="https://www.bseindia.com/stock-share-price/power-finance-corporation-ltd/pfc/532810/" target="_blank">POWER FINANCE CORPORATION LTD.</a>
+
+                                                    </td><td class="tdcolumn text-right" style="width:70px;">
+                                                        <span id="ContentPlaceHolder1_gvData_lblTurnover_50">530.95</span>
+                                                    </td><td class="tdcolumn text-right" style="width:100px;">
+                                                        <span id="ContentPlaceHolder1_gvData_lblTurnover_50" class="tablebluelink" HeaderStyle-CssClass="heading5">175218.90</span>
+                                                    </td>
+					</tr><tr>
+						<td class="tdcolumn" align="center">500295</td><td class="tdcolumn">
+                                                        <a id="ContentPlaceHolder1_gvData_lnk_51" class="tablebluelink" HeaderStyle-CssClass="heading5" href="https://www.bseindia.com/stock-share-price/vedanta-limited/vedl/500295/" target="_blank">Vedanta Limited</a>
+
+                                                    </td><td class="tdcolumn text-right" style="width:70px;">
+                                                        <span id="ContentPlaceHolder1_gvData_lblTurnover_51">463.75</span>
+                                                    </td><td class="tdcolumn text-right" style="width:100px;">
+                                                        <span id="ContentPlaceHolder1_gvData_lblTurnover_51" class="tablebluelink" HeaderStyle-CssClass="heading5">172384.99</span>
+                                                    </td>
+					</tr><tr>
+						<td class="tdcolumn" align="center">500425</td><td class="tdcolumn">
+                                                        <a id="ContentPlaceHolder1_gvData_lnk_52" class="tablebluelink" HeaderStyle-CssClass="heading5" href="https://www.bseindia.com/stock-share-price/ambuja-cements-ltd/ambujacem/500425/" target="_blank">AMBUJA CEMENTS LTD.</a>
+
+                                                    </td><td class="tdcolumn text-right" style="width:70px;">
+                                                        <span id="ContentPlaceHolder1_gvData_lblTurnover_52">692.45</span>
+                                                    </td><td class="tdcolumn text-right" style="width:100px;">
+                                                        <span id="ContentPlaceHolder1_gvData_lblTurnover_52" class="tablebluelink" HeaderStyle-CssClass="heading5">170558.99</span>
+                                                    </td>
+					</tr><tr>
+						<td class="tdcolumn" align="center">539448</td><td class="tdcolumn">
+                                                        <a id="ContentPlaceHolder1_gvData_lnk_53" class="tablebluelink" HeaderStyle-CssClass="heading5" href="https://www.bseindia.com/stock-share-price/interglobe-aviation-ltd/indigo/539448/" target="_blank">InterGlobe Aviation Ltd</a>
+
+                                                    </td><td class="tdcolumn text-right" style="width:70px;">
+                                                        <span id="ContentPlaceHolder1_gvData_lblTurnover_53">4278.25</span>
+                                                    </td><td class="tdcolumn text-right" style="width:100px;">
+                                                        <span id="ContentPlaceHolder1_gvData_lblTurnover_53" class="tablebluelink" HeaderStyle-CssClass="heading5">165131.76</span>
+                                                    </td>
+					</tr><tr>
+						<td class="tdcolumn" align="center">540005</td><td class="tdcolumn">
+                                                        <a id="ContentPlaceHolder1_gvData_lnk_54" class="tablebluelink" HeaderStyle-CssClass="heading5" href="https://www.bseindia.com/stock-share-price/ltimindtree-ltd/ltim/540005/" target="_blank">LTIMindtree Ltd</a>
+
+                                                    </td><td class="tdcolumn text-right" style="width:70px;">
+                                                        <span id="ContentPlaceHolder1_gvData_lblTurnover_54">5462.95</span>
+                                                    </td><td class="tdcolumn text-right" style="width:100px;">
+                                                        <span id="ContentPlaceHolder1_gvData_lblTurnover_54" class="tablebluelink" HeaderStyle-CssClass="heading5">161792.57</span>
+                                                    </td>
+					</tr><tr>
+						<td class="tdcolumn" align="center">500331</td><td class="tdcolumn">
+                                                        <a id="ContentPlaceHolder1_gvData_lnk_55" class="tablebluelink" HeaderStyle-CssClass="heading5" href="https://www.bseindia.com/stock-share-price/pidilite-industries-ltd/pidilitind/500331/" target="_blank">PIDILITE INDUSTRIES LTD.</a>
+
+                                                    </td><td class="tdcolumn text-right" style="width:70px;">
+                                                        <span id="ContentPlaceHolder1_gvData_lblTurnover_55">3111.80</span>
+                                                    </td><td class="tdcolumn text-right" style="width:100px;">
+                                                        <span id="ContentPlaceHolder1_gvData_lblTurnover_55" class="tablebluelink" HeaderStyle-CssClass="heading5">158269.05</span>
+                                                    </td>
+					</tr><tr>
+						<td class="tdcolumn" align="center">500440</td><td class="tdcolumn">
+                                                        <a id="ContentPlaceHolder1_gvData_lnk_56" class="tablebluelink" HeaderStyle-CssClass="heading5" href="https://www.bseindia.com/stock-share-price/hindalco-industries-ltd/hindalco/500440/" target="_blank">HINDALCO INDUSTRIES LTD.</a>
+
+                                                    </td><td class="tdcolumn text-right" style="width:70px;">
+                                                        <span id="ContentPlaceHolder1_gvData_lblTurnover_56">691.30</span>
+                                                    </td><td class="tdcolumn text-right" style="width:100px;">
+                                                        <span id="ContentPlaceHolder1_gvData_lblTurnover_56" class="tablebluelink" HeaderStyle-CssClass="heading5">155350.08</span>
+                                                    </td>
+					</tr><tr>
+						<td class="tdcolumn" align="center">540719</td><td class="tdcolumn">
+                                                        <a id="ContentPlaceHolder1_gvData_lnk_57" class="tablebluelink" HeaderStyle-CssClass="heading5" href="https://www.bseindia.com/stock-share-price/sbi-life-insurance-company-ltd/sbilife/540719/" target="_blank">SBI Life Insurance Company Ltd</a>
+
+                                                    </td><td class="tdcolumn text-right" style="width:70px;">
+                                                        <span id="ContentPlaceHolder1_gvData_lblTurnover_57">1495.70</span>
+                                                    </td><td class="tdcolumn text-right" style="width:100px;">
+                                                        <span id="ContentPlaceHolder1_gvData_lblTurnover_57" class="tablebluelink" HeaderStyle-CssClass="heading5">149805.85</span>
+                                                    </td>
+					</tr><tr>
+						<td class="tdcolumn" align="center">543287</td><td class="tdcolumn">
+                                                        <a id="ContentPlaceHolder1_gvData_lnk_58" class="tablebluelink" HeaderStyle-CssClass="heading5" href="https://www.bseindia.com/stock-share-price/macrotech-developers-ltd/lodha/543287/" target="_blank">Macrotech Developers Ltd</a>
+
+                                                    </td><td class="tdcolumn text-right" style="width:70px;">
+                                                        <span id="ContentPlaceHolder1_gvData_lblTurnover_58">1492.55</span>
+                                                    </td><td class="tdcolumn text-right" style="width:100px;">
+                                                        <span id="ContentPlaceHolder1_gvData_lblTurnover_58" class="tablebluelink" HeaderStyle-CssClass="heading5">148500.43</span>
+                                                    </td>
+					</tr><tr>
+						<td class="tdcolumn" align="center">532955</td><td class="tdcolumn">
+                                                        <a id="ContentPlaceHolder1_gvData_lnk_59" class="tablebluelink" HeaderStyle-CssClass="heading5" href="https://www.bseindia.com/stock-share-price/rec-ltd/recltd/532955/" target="_blank">REC Ltd</a>
+
+                                                    </td><td class="tdcolumn text-right" style="width:70px;">
+                                                        <span id="ContentPlaceHolder1_gvData_lblTurnover_59">562.10</span>
+                                                    </td><td class="tdcolumn text-right" style="width:100px;">
+                                                        <span id="ContentPlaceHolder1_gvData_lblTurnover_59" class="tablebluelink" HeaderStyle-CssClass="heading5">148013.52</span>
+                                                    </td>
+					</tr><tr>
+						<td class="tdcolumn" align="center">532155</td><td class="tdcolumn">
+                                                        <a id="ContentPlaceHolder1_gvData_lnk_60" class="tablebluelink" HeaderStyle-CssClass="heading5" href="https://www.bseindia.com/stock-share-price/gail-(india)-ltd/gail/532155/" target="_blank">GAIL (INDIA) LTD.</a>
+
+                                                    </td><td class="tdcolumn text-right" style="width:70px;">
+                                                        <span id="ContentPlaceHolder1_gvData_lblTurnover_60">220.20</span>
+                                                    </td><td class="tdcolumn text-right" style="width:100px;">
+                                                        <span id="ContentPlaceHolder1_gvData_lblTurnover_60" class="tablebluelink" HeaderStyle-CssClass="heading5">144783.69</span>
+                                                    </td>
+					</tr><tr>
+						<td class="tdcolumn" align="center">532755</td><td class="tdcolumn">
+                                                        <a id="ContentPlaceHolder1_gvData_lnk_61" class="tablebluelink" HeaderStyle-CssClass="heading5" href="https://www.bseindia.com/stock-share-price/tech-mahindra-ltd/techm/532755/" target="_blank">TECH MAHINDRA LTD.</a>
+
+                                                    </td><td class="tdcolumn text-right" style="width:70px;">
+                                                        <span id="ContentPlaceHolder1_gvData_lblTurnover_61">1479.15</span>
+                                                    </td><td class="tdcolumn text-right" style="width:100px;">
+                                                        <span id="ContentPlaceHolder1_gvData_lblTurnover_61" class="tablebluelink" HeaderStyle-CssClass="heading5">144643.47</span>
+                                                    </td>
+					</tr><tr>
+						<td class="tdcolumn" align="center">532424</td><td class="tdcolumn">
+                                                        <a id="ContentPlaceHolder1_gvData_lnk_62" class="tablebluelink" HeaderStyle-CssClass="heading5" href="https://www.bseindia.com/stock-share-price/godrej-consumer-products-ltd/godrejcp/532424/" target="_blank">GODREJ CONSUMER PRODUCTS LTD.</a>
+
+                                                    </td><td class="tdcolumn text-right" style="width:70px;">
+                                                        <span id="ContentPlaceHolder1_gvData_lblTurnover_62">1367.05</span>
+                                                    </td><td class="tdcolumn text-right" style="width:100px;">
+                                                        <span id="ContentPlaceHolder1_gvData_lblTurnover_62" class="tablebluelink" HeaderStyle-CssClass="heading5">139824.65</span>
+                                                    </td>
+					</tr><tr>
+						<td class="tdcolumn" align="center">517334</td><td class="tdcolumn">
+                                                        <a id="ContentPlaceHolder1_gvData_lnk_63" class="tablebluelink" HeaderStyle-CssClass="heading5" href="https://www.bseindia.com/stock-share-price/samvardhana-motherson-international-ltd/motherson/517334/" target="_blank">Samvardhana Motherson International Ltd</a>
+
+                                                    </td><td class="tdcolumn text-right" style="width:70px;">
+                                                        <span id="ContentPlaceHolder1_gvData_lblTurnover_63">205.45</span>
+                                                    </td><td class="tdcolumn text-right" style="width:100px;">
+                                                        <span id="ContentPlaceHolder1_gvData_lblTurnover_63" class="tablebluelink" HeaderStyle-CssClass="heading5">139218.77</span>
+                                                    </td>
+					</tr><tr>
+						<td class="tdcolumn" align="center">500400</td><td class="tdcolumn">
+                                                        <a id="ContentPlaceHolder1_gvData_lnk_64" class="tablebluelink" HeaderStyle-CssClass="heading5" href="https://www.bseindia.com/stock-share-price/tata-power-coltd/tatapower/500400/" target="_blank">TATA POWER CO.LTD.</a>
+
+                                                    </td><td class="tdcolumn text-right" style="width:70px;">
+                                                        <span id="ContentPlaceHolder1_gvData_lblTurnover_64">433.80</span>
+                                                    </td><td class="tdcolumn text-right" style="width:100px;">
+                                                        <span id="ContentPlaceHolder1_gvData_lblTurnover_64" class="tablebluelink" HeaderStyle-CssClass="heading5">138613.83</span>
+                                                    </td>
+					</tr><tr>
+						<td class="tdcolumn" align="center">532134</td><td class="tdcolumn">
+                                                        <a id="ContentPlaceHolder1_gvData_lnk_65" class="tablebluelink" HeaderStyle-CssClass="heading5" href="https://www.bseindia.com/stock-share-price/bank-of-baroda/bankbaroda/532134/" target="_blank">BANK OF BARODA</a>
+
+                                                    </td><td class="tdcolumn text-right" style="width:70px;">
+                                                        <span id="ContentPlaceHolder1_gvData_lblTurnover_65">267.65</span>
+                                                    </td><td class="tdcolumn text-right" style="width:100px;">
+                                                        <span id="ContentPlaceHolder1_gvData_lblTurnover_65" class="tablebluelink" HeaderStyle-CssClass="heading5">138411.51</span>
+                                                    </td>
+					</tr><tr>
+						<td class="tdcolumn" align="center">532461</td><td class="tdcolumn">
+                                                        <a id="ContentPlaceHolder1_gvData_lnk_66" class="tablebluelink" HeaderStyle-CssClass="heading5" href="https://www.bseindia.com/stock-share-price/punjab-national-bank/pnb/532461/" target="_blank">PUNJAB NATIONAL BANK</a>
+
+                                                    </td><td class="tdcolumn text-right" style="width:70px;">
+                                                        <span id="ContentPlaceHolder1_gvData_lblTurnover_66">121.65</span>
+                                                    </td><td class="tdcolumn text-right" style="width:100px;">
+                                                        <span id="ContentPlaceHolder1_gvData_lblTurnover_66" class="tablebluelink" HeaderStyle-CssClass="heading5">133949.00</span>
+                                                    </td>
+					</tr><tr>
+						<td class="tdcolumn" align="center">500547</td><td class="tdcolumn">
+                                                        <a id="ContentPlaceHolder1_gvData_lnk_67" class="tablebluelink" HeaderStyle-CssClass="heading5" href="https://www.bseindia.com/stock-share-price/bharat-petroleum-corporation-ltd/bpcl/500547/" target="_blank">BHARAT PETROLEUM CORPORATION LTD.</a>
+
+                                                    </td><td class="tdcolumn text-right" style="width:70px;">
+                                                        <span id="ContentPlaceHolder1_gvData_lblTurnover_67">306.60</span>
+                                                    </td><td class="tdcolumn text-right" style="width:100px;">
+                                                        <span id="ContentPlaceHolder1_gvData_lblTurnover_67" class="tablebluelink" HeaderStyle-CssClass="heading5">133018.58</span>
+                                                    </td>
+					</tr><tr>
+						<td class="tdcolumn" align="center">500825</td><td class="tdcolumn">
+                                                        <a id="ContentPlaceHolder1_gvData_lnk_68" class="tablebluelink" HeaderStyle-CssClass="heading5" href="https://www.bseindia.com/stock-share-price/britannia-industries-ltd/britannia/500825/" target="_blank">BRITANNIA INDUSTRIES LTD.</a>
+
+                                                    </td><td class="tdcolumn text-right" style="width:70px;">
+                                                        <span id="ContentPlaceHolder1_gvData_lblTurnover_68">5450.00</span>
+                                                    </td><td class="tdcolumn text-right" style="width:100px;">
+                                                        <span id="ContentPlaceHolder1_gvData_lblTurnover_68" class="tablebluelink" HeaderStyle-CssClass="heading5">131273.22</span>
+                                                    </td>
+					</tr><tr>
+						<td class="tdcolumn" align="center">505200</td><td class="tdcolumn">
+                                                        <a id="ContentPlaceHolder1_gvData_lnk_69" class="tablebluelink" HeaderStyle-CssClass="heading5" href="https://www.bseindia.com/stock-share-price/eicher-motors-ltd/eichermot/505200/" target="_blank">EICHER MOTORS LTD.</a>
+
+                                                    </td><td class="tdcolumn text-right" style="width:70px;">
+                                                        <span id="ContentPlaceHolder1_gvData_lblTurnover_69">4691.45</span>
+                                                    </td><td class="tdcolumn text-right" style="width:100px;">
+                                                        <span id="ContentPlaceHolder1_gvData_lblTurnover_69" class="tablebluelink" HeaderStyle-CssClass="heading5">128550.66</span>
+                                                    </td>
+					</tr><tr>
+						<td class="tdcolumn" align="center">540777</td><td class="tdcolumn">
+                                                        <a id="ContentPlaceHolder1_gvData_lnk_70" class="tablebluelink" HeaderStyle-CssClass="heading5" href="https://www.bseindia.com/stock-share-price/hdfc-life-insurance-company-ltd/hdfclife/540777/" target="_blank">HDFC Life Insurance Company Ltd</a>
+
+                                                    </td><td class="tdcolumn text-right" style="width:70px;">
+                                                        <span id="ContentPlaceHolder1_gvData_lblTurnover_70">595.80</span>
+                                                    </td><td class="tdcolumn text-right" style="width:100px;">
+                                                        <span id="ContentPlaceHolder1_gvData_lblTurnover_70" class="tablebluelink" HeaderStyle-CssClass="heading5">128155.35</span>
+                                                    </td>
+					</tr><tr>
+						<td class="tdcolumn" align="center">533148</td><td class="tdcolumn">
+                                                        <a id="ContentPlaceHolder1_gvData_lnk_71" class="tablebluelink" HeaderStyle-CssClass="heading5" href="https://www.bseindia.com/stock-share-price/jsw-energy-ltd/jswenergy/533148/" target="_blank">JSW Energy Ltd</a>
+
+                                                    </td><td class="tdcolumn text-right" style="width:70px;">
+                                                        <span id="ContentPlaceHolder1_gvData_lblTurnover_71">732.70</span>
+                                                    </td><td class="tdcolumn text-right" style="width:100px;">
+                                                        <span id="ContentPlaceHolder1_gvData_lblTurnover_71" class="tablebluelink" HeaderStyle-CssClass="heading5">128058.99</span>
+                                                    </td>
+					</tr><tr>
+						<td class="tdcolumn" align="center">532488</td><td class="tdcolumn">
+                                                        <a id="ContentPlaceHolder1_gvData_lnk_72" class="tablebluelink" HeaderStyle-CssClass="heading5" href="https://www.bseindia.com/stock-share-price/divis-laboratories-ltd/divislab/532488/" target="_blank">DIVI'S LABORATORIES LTD.</a>
+
+                                                    </td><td class="tdcolumn text-right" style="width:70px;">
+                                                        <span id="ContentPlaceHolder1_gvData_lblTurnover_72">4552.80</span>
+                                                    </td><td class="tdcolumn text-right" style="width:100px;">
+                                                        <span id="ContentPlaceHolder1_gvData_lblTurnover_72" class="tablebluelink" HeaderStyle-CssClass="heading5">120862.54</span>
+                                                    </td>
+					</tr><tr>
+						<td class="tdcolumn" align="center">511243</td><td class="tdcolumn">
+                                                        <a id="ContentPlaceHolder1_gvData_lnk_73" class="tablebluelink" HeaderStyle-CssClass="heading5" href="https://www.bseindia.com/stock-share-price/cholamandalam-investment-and-finance-company-ltd/cholafin/511243/" target="_blank">Cholamandalam Investment and Finance Company Ltd</a>
+
+                                                    </td><td class="tdcolumn text-right" style="width:70px;">
+                                                        <span id="ContentPlaceHolder1_gvData_lblTurnover_73">1433.90</span>
+                                                    </td><td class="tdcolumn text-right" style="width:100px;">
+                                                        <span id="ContentPlaceHolder1_gvData_lblTurnover_73" class="tablebluelink" HeaderStyle-CssClass="heading5">120475.11</span>
+                                                    </td>
+					</tr><tr>
+						<td class="tdcolumn" align="center">500087</td><td class="tdcolumn">
+                                                        <a id="ContentPlaceHolder1_gvData_lnk_74" class="tablebluelink" HeaderStyle-CssClass="heading5" href="https://www.bseindia.com/stock-share-price/cipla-ltd/cipla/500087/" target="_blank">CIPLA LTD.</a>
+
+                                                    </td><td class="tdcolumn text-right" style="width:70px;">
+                                                        <span id="ContentPlaceHolder1_gvData_lblTurnover_74">1483.20</span>
+                                                    </td><td class="tdcolumn text-right" style="width:100px;">
+                                                        <span id="ContentPlaceHolder1_gvData_lblTurnover_74" class="tablebluelink" HeaderStyle-CssClass="heading5">119771.07</span>
+                                                    </td>
+					</tr><tr>
+						<td class="tdcolumn" align="center">532388</td><td class="tdcolumn">
+                                                        <a id="ContentPlaceHolder1_gvData_lnk_75" class="tablebluelink" HeaderStyle-CssClass="heading5" href="https://www.bseindia.com/stock-share-price/indian-overseas-bank/iob/532388/" target="_blank">INDIAN OVERSEAS BANK</a>
+
+                                                    </td><td class="tdcolumn text-right" style="width:70px;">
+                                                        <span id="ContentPlaceHolder1_gvData_lblTurnover_75">63.35</span>
+                                                    </td><td class="tdcolumn text-right" style="width:100px;">
+                                                        <span id="ContentPlaceHolder1_gvData_lblTurnover_75" class="tablebluelink" HeaderStyle-CssClass="heading5">119746.78</span>
+                                                    </td>
+					</tr><tr>
+						<td class="tdcolumn" align="center">532822</td><td class="tdcolumn">
+                                                        <a id="ContentPlaceHolder1_gvData_lnk_76" class="tablebluelink" HeaderStyle-CssClass="heading5" href="https://www.bseindia.com/stock-share-price/vodafone-idea-ltd/idea/532822/" target="_blank">Vodafone Idea Ltd</a>
+
+                                                    </td><td class="tdcolumn text-right" style="width:70px;">
+                                                        <span id="ContentPlaceHolder1_gvData_lblTurnover_76">17.46</span>
+                                                    </td><td class="tdcolumn text-right" style="width:100px;">
+                                                        <span id="ContentPlaceHolder1_gvData_lblTurnover_76" class="tablebluelink" HeaderStyle-CssClass="heading5">118516.53</span>
+                                                    </td>
+					</tr><tr>
+						<td class="tdcolumn" align="center">517354</td><td class="tdcolumn">
+                                                        <a id="ContentPlaceHolder1_gvData_lnk_77" class="tablebluelink" HeaderStyle-CssClass="heading5" href="https://www.bseindia.com/stock-share-price/havells-india-ltd/havells/517354/" target="_blank">HAVELLS INDIA LTD.</a>
+
+                                                    </td><td class="tdcolumn text-right" style="width:70px;">
+                                                        <span id="ContentPlaceHolder1_gvData_lblTurnover_77">1878.35</span>
+                                                    </td><td class="tdcolumn text-right" style="width:100px;">
+                                                        <span id="ContentPlaceHolder1_gvData_lblTurnover_77" class="tablebluelink" HeaderStyle-CssClass="heading5">117713.01</span>
+                                                    </td>
+					</tr><tr>
+						<td class="tdcolumn" align="center">539254</td><td class="tdcolumn">
+                                                        <a id="ContentPlaceHolder1_gvData_lnk_78" class="tablebluelink" HeaderStyle-CssClass="heading5" href="https://www.bseindia.com/stock-share-price/adani-energy-solutions-ltd/adaniensol/539254/" target="_blank">Adani Energy Solutions Ltd</a>
+
+                                                    </td><td class="tdcolumn text-right" style="width:70px;">
+                                                        <span id="ContentPlaceHolder1_gvData_lblTurnover_78">1035.10</span>
+                                                    </td><td class="tdcolumn text-right" style="width:100px;">
+                                                        <span id="ContentPlaceHolder1_gvData_lblTurnover_78" class="tablebluelink" HeaderStyle-CssClass="heading5">115464.65</span>
+                                                    </td>
+					</tr><tr>
+						<td class="tdcolumn" align="center">532187</td><td class="tdcolumn">
+                                                        <a id="ContentPlaceHolder1_gvData_lnk_79" class="tablebluelink" HeaderStyle-CssClass="heading5" href="https://www.bseindia.com/stock-share-price/indusind-bank-ltd/indusindbk/532187/" target="_blank">INDUSIND BANK LTD.</a>
+
+                                                    </td><td class="tdcolumn text-right" style="width:70px;">
+                                                        <span id="ContentPlaceHolder1_gvData_lblTurnover_79">1455.55</span>
+                                                    </td><td class="tdcolumn text-right" style="width:100px;">
+                                                        <span id="ContentPlaceHolder1_gvData_lblTurnover_79" class="tablebluelink" HeaderStyle-CssClass="heading5">113347.32</span>
+                                                    </td>
+					</tr><tr>
+						<td class="tdcolumn" align="center">500182</td><td class="tdcolumn">
+                                                        <a id="ContentPlaceHolder1_gvData_lnk_80" class="tablebluelink" HeaderStyle-CssClass="heading5" href="https://www.bseindia.com/stock-share-price/hero-motocorp-ltd/heromotoco/500182/" target="_blank">HERO MOTOCORP LTD.</a>
+
+                                                    </td><td class="tdcolumn text-right" style="width:70px;">
+                                                        <span id="ContentPlaceHolder1_gvData_lblTurnover_80">5578.35</span>
+                                                    </td><td class="tdcolumn text-right" style="width:100px;">
+                                                        <span id="ContentPlaceHolder1_gvData_lblTurnover_80" class="tablebluelink" HeaderStyle-CssClass="heading5">111528.57</span>
+                                                    </td>
+					</tr><tr>
+						<td class="tdcolumn" align="center">500093</td><td class="tdcolumn">
+                                                        <a id="ContentPlaceHolder1_gvData_lnk_81" class="tablebluelink" HeaderStyle-CssClass="heading5" href="https://www.bseindia.com/stock-share-price/cg-power-and-industrial-solutions-ltd/cgpower/500093/" target="_blank">CG Power and Industrial Solutions Ltd</a>
+
+                                                    </td><td class="tdcolumn text-right" style="width:70px;">
+                                                        <span id="ContentPlaceHolder1_gvData_lblTurnover_81">721.35</span>
+                                                    </td><td class="tdcolumn text-right" style="width:100px;">
+                                                        <span id="ContentPlaceHolder1_gvData_lblTurnover_81" class="tablebluelink" HeaderStyle-CssClass="heading5">110213.04</span>
+                                                    </td>
+					</tr><tr>
+						<td class="tdcolumn" align="center">532321</td><td class="tdcolumn">
+                                                        <a id="ContentPlaceHolder1_gvData_lnk_82" class="tablebluelink" HeaderStyle-CssClass="heading5" href="https://www.bseindia.com/stock-share-price/zydus-lifesciences-ltd/zyduslife/532321/" target="_blank">Zydus Lifesciences Ltd</a>
+
+                                                    </td><td class="tdcolumn text-right" style="width:70px;">
+                                                        <span id="ContentPlaceHolder1_gvData_lblTurnover_82">1094.65</span>
+                                                    </td><td class="tdcolumn text-right" style="width:100px;">
+                                                        <span id="ContentPlaceHolder1_gvData_lblTurnover_82" class="tablebluelink" HeaderStyle-CssClass="heading5">110147.40</span>
+                                                    </td>
+					</tr><tr>
+						<td class="tdcolumn" align="center">532343</td><td class="tdcolumn">
+                                                        <a id="ContentPlaceHolder1_gvData_lnk_83" class="tablebluelink" HeaderStyle-CssClass="heading5" href="https://www.bseindia.com/stock-share-price/tvs-motor-company-ltd/tvsmotor/532343/" target="_blank">TVS MOTOR COMPANY LTD.</a>
+
+                                                    </td><td class="tdcolumn text-right" style="width:70px;">
+                                                        <span id="ContentPlaceHolder1_gvData_lblTurnover_83">2315.90</span>
+                                                    </td><td class="tdcolumn text-right" style="width:100px;">
+                                                        <span id="ContentPlaceHolder1_gvData_lblTurnover_83" class="tablebluelink" HeaderStyle-CssClass="heading5">110025.42</span>
+                                                    </td>
+					</tr><tr>
+						<td class="tdcolumn" align="center">500480</td><td class="tdcolumn">
+                                                        <a id="ContentPlaceHolder1_gvData_lnk_84" class="tablebluelink" HeaderStyle-CssClass="heading5" href="https://www.bseindia.com/stock-share-price/cummins-india-ltd/cumminsind/500480/" target="_blank">CUMMINS INDIA LTD.</a>
+
+                                                    </td><td class="tdcolumn text-right" style="width:70px;">
+                                                        <span id="ContentPlaceHolder1_gvData_lblTurnover_84">3957.30</span>
+                                                    </td><td class="tdcolumn text-right" style="width:100px;">
+                                                        <span id="ContentPlaceHolder1_gvData_lblTurnover_84" class="tablebluelink" HeaderStyle-CssClass="heading5">109696.36</span>
+                                                    </td>
+					</tr><tr>
+						<td class="tdcolumn" align="center">500800</td><td class="tdcolumn">
+                                                        <a id="ContentPlaceHolder1_gvData_lnk_85" class="tablebluelink" HeaderStyle-CssClass="heading5" href="https://www.bseindia.com/stock-share-price/tata-consumer-products-ltd/tataconsum/500800/" target="_blank">Tata Consumer Products Ltd</a>
+
+                                                    </td><td class="tdcolumn text-right" style="width:70px;">
+                                                        <span id="ContentPlaceHolder1_gvData_lblTurnover_85">1145.90</span>
+                                                    </td><td class="tdcolumn text-right" style="width:100px;">
+                                                        <span id="ContentPlaceHolder1_gvData_lblTurnover_85" class="tablebluelink" HeaderStyle-CssClass="heading5">109185.34</span>
+                                                    </td>
+					</tr><tr>
+						<td class="tdcolumn" align="center">500103</td><td class="tdcolumn">
+                                                        <a id="ContentPlaceHolder1_gvData_lnk_86" class="tablebluelink" HeaderStyle-CssClass="heading5" href="https://www.bseindia.com/stock-share-price/bharat-heavy-electricals-ltd/bhel/500103/" target="_blank">BHARAT HEAVY ELECTRICALS LTD.</a>
+
+                                                    </td><td class="tdcolumn text-right" style="width:70px;">
+                                                        <span id="ContentPlaceHolder1_gvData_lblTurnover_86">311.30</span>
+                                                    </td><td class="tdcolumn text-right" style="width:100px;">
+                                                        <span id="ContentPlaceHolder1_gvData_lblTurnover_86" class="tablebluelink" HeaderStyle-CssClass="heading5">108396.63</span>
+                                                    </td>
+					</tr><tr>
+						<td class="tdcolumn" align="center">500096</td><td class="tdcolumn">
+                                                        <a id="ContentPlaceHolder1_gvData_lnk_87" class="tablebluelink" HeaderStyle-CssClass="heading5" href="https://www.bseindia.com/stock-share-price/dabur-india-ltd/dabur/500096/" target="_blank">DABUR INDIA LTD.</a>
+
+                                                    </td><td class="tdcolumn text-right" style="width:70px;">
+                                                        <span id="ContentPlaceHolder1_gvData_lblTurnover_87">609.30</span>
+                                                    </td><td class="tdcolumn text-right" style="width:100px;">
+                                                        <span id="ContentPlaceHolder1_gvData_lblTurnover_87" class="tablebluelink" HeaderStyle-CssClass="heading5">107986.93</span>
+                                                    </td>
+					</tr><tr>
+						<td class="tdcolumn" align="center">511218</td><td class="tdcolumn">
+                                                        <a id="ContentPlaceHolder1_gvData_lnk_88" class="tablebluelink" HeaderStyle-CssClass="heading5" href="https://www.bseindia.com/stock-share-price/shriram-finance-ltd/shriramfin/511218/" target="_blank">Shriram Finance Ltd</a>
+
+                                                    </td><td class="tdcolumn text-right" style="width:70px;">
+                                                        <span id="ContentPlaceHolder1_gvData_lblTurnover_88">2856.55</span>
+                                                    </td><td class="tdcolumn text-right" style="width:100px;">
+                                                        <span id="ContentPlaceHolder1_gvData_lblTurnover_88" class="tablebluelink" HeaderStyle-CssClass="heading5">107381.03</span>
+                                                    </td>
+					</tr><tr>
+						<td class="tdcolumn" align="center">500124</td><td class="tdcolumn">
+                                                        <a id="ContentPlaceHolder1_gvData_lnk_89" class="tablebluelink" HeaderStyle-CssClass="heading5" href="https://www.bseindia.com/stock-share-price/drreddys-laboratories-ltd/drreddy/500124/" target="_blank">DR.REDDY'S LABORATORIES LTD.</a>
+
+                                                    </td><td class="tdcolumn text-right" style="width:70px;">
+                                                        <span id="ContentPlaceHolder1_gvData_lblTurnover_89">6428.05</span>
+                                                    </td><td class="tdcolumn text-right" style="width:100px;">
+                                                        <span id="ContentPlaceHolder1_gvData_lblTurnover_89" class="tablebluelink" HeaderStyle-CssClass="heading5">107233.95</span>
+                                                    </td>
+					</tr><tr>
+						<td class="tdcolumn" align="center">532286</td><td class="tdcolumn">
+                                                        <a id="ContentPlaceHolder1_gvData_lnk_90" class="tablebluelink" HeaderStyle-CssClass="heading5" href="https://www.bseindia.com/stock-share-price/jindal-steel--power-ltd/jindalstel/532286/" target="_blank">JINDAL STEEL & POWER LTD.</a>
+
+                                                    </td><td class="tdcolumn text-right" style="width:70px;">
+                                                        <span id="ContentPlaceHolder1_gvData_lblTurnover_90">1050.45</span>
+                                                    </td><td class="tdcolumn text-right" style="width:100px;">
+                                                        <span id="ContentPlaceHolder1_gvData_lblTurnover_90" class="tablebluelink" HeaderStyle-CssClass="heading5">107155.15</span>
+                                                    </td>
+					</tr><tr>
+						<td class="tdcolumn" align="center">534816</td><td class="tdcolumn">
+                                                        <a id="ContentPlaceHolder1_gvData_lnk_91" class="tablebluelink" HeaderStyle-CssClass="heading5" href="https://www.bseindia.com/stock-share-price/indus-towers-ltd/industower/534816/" target="_blank">Indus Towers Ltd</a>
+
+                                                    </td><td class="tdcolumn text-right" style="width:70px;">
+                                                        <span id="ContentPlaceHolder1_gvData_lblTurnover_91">396.50</span>
+                                                    </td><td class="tdcolumn text-right" style="width:100px;">
+                                                        <span id="ContentPlaceHolder1_gvData_lblTurnover_91" class="tablebluelink" HeaderStyle-CssClass="heading5">106854.25</span>
+                                                    </td>
+					</tr><tr>
+						<td class="tdcolumn" align="center">532483</td><td class="tdcolumn">
+                                                        <a id="ContentPlaceHolder1_gvData_lnk_92" class="tablebluelink" HeaderStyle-CssClass="heading5" href="https://www.bseindia.com/stock-share-price/canara-bank/canbk/532483/" target="_blank">CANARA BANK</a>
+
+                                                    </td><td class="tdcolumn text-right" style="width:70px;">
+                                                        <span id="ContentPlaceHolder1_gvData_lblTurnover_92">117.00</span>
+                                                    </td><td class="tdcolumn text-right" style="width:100px;">
+                                                        <span id="ContentPlaceHolder1_gvData_lblTurnover_92" class="tablebluelink" HeaderStyle-CssClass="heading5">106126.62</span>
+                                                    </td>
+					</tr><tr>
+						<td class="tdcolumn" align="center">532477</td><td class="tdcolumn">
+                                                        <a id="ContentPlaceHolder1_gvData_lnk_93" class="tablebluelink" HeaderStyle-CssClass="heading5" href="https://www.bseindia.com/stock-share-price/union-bank-of-india/unionbank/532477/" target="_blank">UNION BANK OF INDIA</a>
+
+                                                    </td><td class="tdcolumn text-right" style="width:70px;">
+                                                        <span id="ContentPlaceHolder1_gvData_lblTurnover_93">136.15</span>
+                                                    </td><td class="tdcolumn text-right" style="width:100px;">
+                                                        <span id="ContentPlaceHolder1_gvData_lblTurnover_93" class="tablebluelink" HeaderStyle-CssClass="heading5">103931.54</span>
+                                                    </td>
+					</tr><tr>
+						<td class="tdcolumn" align="center">532725</td><td class="tdcolumn">
+                                                        <a id="ContentPlaceHolder1_gvData_lnk_94" class="tablebluelink" HeaderStyle-CssClass="heading5" href="https://www.bseindia.com/stock-share-price/solar-industries-india-ltd/solarinds/532725/" target="_blank">SOLAR INDUSTRIES INDIA LTD.</a>
+
+                                                    </td><td class="tdcolumn text-right" style="width:70px;">
+                                                        <span id="ContentPlaceHolder1_gvData_lblTurnover_94">11468.60</span>
+                                                    </td><td class="tdcolumn text-right" style="width:100px;">
+                                                        <span id="ContentPlaceHolder1_gvData_lblTurnover_94" class="tablebluelink" HeaderStyle-CssClass="heading5">103779.42</span>
+                                                    </td>
+					</tr><tr>
+						<td class="tdcolumn" align="center">500490</td><td class="tdcolumn">
+                                                        <a id="ContentPlaceHolder1_gvData_lnk_95" class="tablebluelink" HeaderStyle-CssClass="heading5" href="https://www.bseindia.com/stock-share-price/bajaj-holdings--investment-ltd/bajajhldng/500490/" target="_blank">BAJAJ HOLDINGS & INVESTMENT LTD.</a>
+
+                                                    </td><td class="tdcolumn text-right" style="width:70px;">
+                                                        <span id="ContentPlaceHolder1_gvData_lblTurnover_95">9289.80</span>
+                                                    </td><td class="tdcolumn text-right" style="width:100px;">
+                                                        <span id="ContentPlaceHolder1_gvData_lblTurnover_95" class="tablebluelink" HeaderStyle-CssClass="heading5">103389.44</span>
+                                                    </td>
+					</tr><tr>
+						<td class="tdcolumn" align="center">533098</td><td class="tdcolumn">
+                                                        <a id="ContentPlaceHolder1_gvData_lnk_96" class="tablebluelink" HeaderStyle-CssClass="heading5" href="https://www.bseindia.com/stock-share-price/nhpc-ltd/nhpc/533098/" target="_blank">NHPC LTD.</a>
+
+                                                    </td><td class="tdcolumn text-right" style="width:70px;">
+                                                        <span id="ContentPlaceHolder1_gvData_lblTurnover_96">101.45</span>
+                                                    </td><td class="tdcolumn text-right" style="width:100px;">
+                                                        <span id="ContentPlaceHolder1_gvData_lblTurnover_96" class="tablebluelink" HeaderStyle-CssClass="heading5">101906.88</span>
+                                                    </td>
+					</tr><tr>
+						<td class="tdcolumn" align="center">500530</td><td class="tdcolumn">
+                                                        <a id="ContentPlaceHolder1_gvData_lnk_97" class="tablebluelink" HeaderStyle-CssClass="heading5" href="https://www.bseindia.com/stock-share-price/bosch-ltd/boschltd/500530/" target="_blank">BOSCH LTD.</a>
+
+                                                    </td><td class="tdcolumn text-right" style="width:70px;">
+                                                        <span id="ContentPlaceHolder1_gvData_lblTurnover_97">34535.85</span>
+                                                    </td><td class="tdcolumn text-right" style="width:100px;">
+                                                        <span id="ContentPlaceHolder1_gvData_lblTurnover_97" class="tablebluelink" HeaderStyle-CssClass="heading5">101858.79</span>
+                                                    </td>
+					</tr><tr>
+						<td class="tdcolumn" align="center">542652</td><td class="tdcolumn">
+                                                        <a id="ContentPlaceHolder1_gvData_lnk_98" class="tablebluelink" HeaderStyle-CssClass="heading5" href="https://www.bseindia.com/stock-share-price/polycab-india-ltd/polycab/542652/" target="_blank">Polycab India Ltd</a>
+
+                                                    </td><td class="tdcolumn text-right" style="width:70px;">
+                                                        <span id="ContentPlaceHolder1_gvData_lblTurnover_98">6711.15</span>
+                                                    </td><td class="tdcolumn text-right" style="width:100px;">
+                                                        <span id="ContentPlaceHolder1_gvData_lblTurnover_98" class="tablebluelink" HeaderStyle-CssClass="heading5">100901.36</span>
+                                                    </td>
+					</tr><tr>
+						<td class="tdcolumn" align="center">542066</td><td class="tdcolumn">
+                                                        <a id="ContentPlaceHolder1_gvData_lnk_99" class="tablebluelink" HeaderStyle-CssClass="heading5" href="https://www.bseindia.com/stock-share-price/adani-total-gas-ltd/atgl/542066/" target="_blank">Adani Total Gas Ltd</a>
+
+                                                    </td><td class="tdcolumn text-right" style="width:70px;">
+                                                        <span id="ContentPlaceHolder1_gvData_lblTurnover_99">904.70</span>
+                                                    </td><td class="tdcolumn text-right" style="width:100px;">
+                                                        <span id="ContentPlaceHolder1_gvData_lblTurnover_99" class="tablebluelink" HeaderStyle-CssClass="heading5">99499.82</span>
+                                                    </td>
+					</tr>
+				</tbody><tfoot>
+
+				</tfoot>
+			</table>
+		</div>
+                                    </td>
+                                </tr>
+                                
+                                
+                            </table>
+                            </br>
+                                        <table width="100%" border="0" cellspacing="0" cellpadding="0">
+                                            <tr>
+                                                <td id="ContentPlaceHolder1_tdpager">
+                                                    <div id="pager">
+                                                        <img src="/include/images/first.png" alt="" class="first" />
+                                                        <img src="/include/images/prev.png" alt="" class="prev" />
+                                                        <input type="text" style="width: 40px;" class="pagedisplay" />
+                                                        <img src="/include/images/next.png" alt="" class="next" />
+                                                        <img src="/include/images/last.png" alt="" class="last" />
+                                                        <select class="pagesize" style="display: none">
+                                                            <option selected="selected" value="50">50</option>
+                                                        </select>
+                                                    </div>
+                                                </td>
+		
+                                            </tr>
+                                        </table>
+                        </td>
+	</tr>
+</table>
+
+                <span id="ContentPlaceHolder1_spScrip" style="font-size: 13px; font-family: Arial;"></span>
+                <br />
+            </div>
+        </div>
+    </div>
+    <script src="/include/js/jquery.tablesorter.js"></script>
+    <link href="/include/css/jquery.tablesorter.pager.css" rel="stylesheet" />
+    <script src="/include/js/jquery.tablesorter.pager.js"></script>
+    <script type="text/javascript">
+        $(document).ready(function () {
+            $("#ContentPlaceHolder1_gvData").tablesorter({
+                headers: { 0: { sorter: false }, 2: { sorter: false } }
+                //headers: { 0: { sorter: false }, 2: { sorter: false }, 3: { sorter: false } }
+            });
+            $("#ContentPlaceHolder1_gvData").tablesorterPager({ container: $("#pager"), size: 50 });
+
+        });
+    </script>
+
+     <script language="javascript">
+         $(document).ready(function () {
+             $('.pager a').click(function () { alert('paging'); });
+         });
+
+         $('a[href*="bseindia"]').each(function () {
+             var oldUrl = $(this).attr("href"); // Get current url
+             var newUrl = oldUrl.replace("http://www.bseindia.com", "").replace("https://www.bseindia.com", "").replace("www.bseindia.com", ""); // Create new url
+             $(this).attr("href", newUrl); // Set herf value
+         });
+ </script>
+
+    <br /><br />
+
+<div align="center" class="largetable">
+				
+<!-- /35735749/Equity_Second -->
+<div id='div-gpt-ad-1586264221225-0'>
+  <script>
+    googletag.cmd.push(function() { googletag.display('div-gpt-ad-1586264221225-0'); });
+  </script>
+</div>
+</div>
+
+
+
+            </div></div>
+        </div>
+        <br />
+        <br />
+        <div class="middlefoot"></div>
+        <footer id="footerarea" class="footerarea">
+        </footer>
+        <script>$("#footerarea").load("/footer.aspx");</script>
+
+        <script src="/include/js/jquery.ui.touch-punch.min.js"></script>
+       <script>
+           document.write("<script type='text/javascript' src='/include/js/bootstrap.min.js?v=" + version_cntroller + "'><\/script>");
+
+       </script>
+        <script src="/include/js/jquery.bootstrap-responsive-tabs.min.js"></script>
+        <script>
+            $('.responsive-tabs').responsiveTabs({
+                accordionOn: ['xs', 'sm']
+            });
+        </script>
+    </form>
+</body>
+</html>
