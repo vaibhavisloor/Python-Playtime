@@ -61,16 +61,16 @@
 #     requests.get("https://tubefetcher.xyz/")
 #     print(i)
 #     i+=1
-import math
+# import math
 
-n=100
+# n=100
 
-divisor=set()
+# divisor=set()
 
-for i in range(1,int(math.sqrt(n))+1):
-    if n%i == 0:
-        divisor.add(i)
-        divisor.add(n//i)
-print(sorted(divisor))       
+# for i in range(1,int(math.sqrt(n))+1):
+#     if n%i == 0:
+#         divisor.add(i)
+#         divisor.add(n//i)
+# print(sorted(divisor))       
 
     
