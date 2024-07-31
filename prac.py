@@ -63,14 +63,16 @@
 #     i+=1
 # import math
 
-# n=100
+num = int(input())
 
-# divisor=set()
+def prime(num):
+    for i in range(2,num):
+        if num%i == 0:
+            print("Not prime")
+            return
+    print("Prime")  
 
-# for i in range(1,int(math.sqrt(n))+1):
-#     if n%i == 0:
-#         divisor.add(i)
-#         divisor.add(n//i)
-# print(sorted(divisor))       
+prime(num)
+
 
     
