@@ -63,16 +63,24 @@
 #     i+=1
 # import math
 
-num = int(input())
+# num = int(input())
 
-def prime(num):
-    for i in range(2,num):
-        if num%i == 0:
-            print("Not prime")
-            return
-    print("Prime")  
+# def prime(num):
+#     for i in range(2,num):
+#         if num%i == 0:
+#             print("Not prime")
+#             return
+#     print("Prime")  
 
-prime(num)
+# prime(num)
 
 
-    
+n='abc'
+
+h='xysdagidabc'
+
+for i in range(len(h)):
+    substring = h[i:i+len(n)]
+
+    if n == substring:
+       print(i)
