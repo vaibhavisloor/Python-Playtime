@@ -6,7 +6,7 @@ app=Flask(__name__)
 def hello_world():
     return render_template("index.html")
 
-@app.route("/login",methods=['POST','GET'])
+@app.route("/login",methods=['POST'])
 def receive_data():
     name = request.form["uname"]
     passw = request.form["pass"]
