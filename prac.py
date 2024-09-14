@@ -97,6 +97,10 @@
 # for i,val in enumerate(string):
 #     print(i,val)
 
+# import random
+# num = random.randint(0,9)
+# print(num)
+
 import random
-num = random.randint(0,9)
-print(num)
+a="Welcome Home dear doggy. You will stay here from today"
+print((a.split(" ")))
