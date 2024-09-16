@@ -75,12 +75,20 @@
 # prime(num)
 
 
-n='abc'
+# n='abc'
 
-h='xysdagidabc'
+# h='xysdagidabc'
 
-for i in range(len(h)):
-    substring = h[i:i+len(n)]
+# for i in range(len(h)):
+#     substring = h[i:i+len(n)]
 
-    if n == substring:
-       print(i)
+#     print(substring)
+
+
+num = [1,2,3]
+
+def sq(x):
+    return x**2
+print(list(map(sq ,num)))
+
+
