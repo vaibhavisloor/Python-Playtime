@@ -29,11 +29,11 @@ outcomes = [rock, paper, scissors]
 outcome_name = ["Rock","Paper","Scissors"]
 while True:
     user_choice = int(input('''Choose your option : \n0 - Rock 
-1 - Paper 
-2 - Scissors \n3 - Exit\n'''))
+                                                    1 - Paper 
+                                                    2 - Scissors \n
+                                                    3 - Exit\n'''))
 
     comp_choice = random.randint(0,2)
-
 
     if(user_choice == 3):
         print("Hope you enjoyed playing !!")
