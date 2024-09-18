@@ -103,4 +103,4 @@
 
 import random
 a="Welcome Home dear doggy. You will stay here from today"
-print((a.split(" ")))
+print((a.split()))
