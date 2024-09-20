@@ -23,6 +23,5 @@ for student in student_scores:
     elif student_scores[student] < 70:
         student_grades[student] = "Fail"          
     
-
 # 🚨 Don't change the code below 👇
 print(student_grades)
