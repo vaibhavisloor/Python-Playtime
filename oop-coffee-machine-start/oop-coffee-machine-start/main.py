@@ -2,7 +2,6 @@ from menu import Menu, MenuItem
 from coffee_maker import CoffeeMaker
 from money_machine import MoneyMachine
 
-
 menu = Menu()
 menu_items =menu.get_items()
 menu_drinks =menu_items.split('/')
@@ -14,7 +13,6 @@ for dish in menu_drinks:
 machine = True
 
 while machine == True:
-
 
     choice=input("Check if we have the drink of your choice today !\n")
 
@@ -37,4 +35,3 @@ if one_more == 'yes':
     machine = True
 else:
     machine=False    
-

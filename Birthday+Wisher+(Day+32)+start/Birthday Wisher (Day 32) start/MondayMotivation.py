@@ -11,7 +11,7 @@ if weekday == 1:
     with open("quotes.txt") as quote_file:
         all_quotes = quote_file.readlines()
         quote = random.choice(all_quotes)
-
+    # print(all_quotes)
     print(quote)
     with smtplib.SMTP("smtp.gmail.com") as connection:
         connection.starttls()
@@ -21,6 +21,3 @@ if weekday == 1:
             to_addrs=MY_EMAIL,
             msg=f"Subject:Monday Motivation\n\n{quote}"
         )
-
-
-
