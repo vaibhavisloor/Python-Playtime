@@ -15,12 +15,13 @@ timer_instance=None
 
 # ---------------------------- TIMER RESET ------------------------------- # 
 def timer_reset():
-     window.after_cancel(timer_instance)
-     canvas.itemconfig(timer_text,text="00:00")
-     label1.config(text="Timer")
-     check_marks.config(text="")
-     
+    window.after_cancel(timer_instance)
+    canvas.itemconfig(timer_text,text="00:00")
+    label1.config(text="Timer")
+    check_marks.config(text="")
+    
 # ---------------------------- TIMER MECHANISM ------------------------------- # 
+
 def start_timer(repetitions=1):
         if repetitions % 2 != 0:
             time_sec = WORK_MIN * 60
