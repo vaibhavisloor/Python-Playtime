@@ -85,10 +85,18 @@
 #     print(substring)
 
 
-num = [1,2,3]
+# num = [1,2,3]
 
-def sq(x):
-    return x**2
-print(list(map(sq ,num)))
+# def sq(x):
+#     return x**2
+# print(list(map(sq ,num)))
 
 
+# string = "abc"
+
+# for i,val in enumerate(string):
+#     print(i,val)
+
+import random
+num = random.randint(0,9)
+print(num)

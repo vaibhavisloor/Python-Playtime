@@ -29,18 +29,32 @@ class User:
         self.name = name
         self.is_authenticated = False
 
-def check_authenticated(function):
-    def wrapper(*args, **kwargs):
-        if args[0].is_authenticated:
-            return function()
-        else:
-            return "Not authenticated"
+# def check_authenticated(function):
+#     def wrapper(*args, **kwargs):
+#         if args[0].is_authenticated:
+#             return function()
+#         else:
+#             return "Not authenticated"
+#     return wrapper
+
+# @check_authenticated
+# def create_blog_post(user):
+#     return f"<h1>This is {user.name}'s post</h1>"
+
+# user = User("Vaibhav")
+
+# print(create_blog_post(user))
+
+
+def decorator(func):
+    def wrapper(*args):
+        print(f"The first arg is {args[0]}")
+        result = func(*args)
+        return result
     return wrapper
 
-@check_authenticated
-def create_blog_post(user):
-    return f"<h1>This is {user.name}'s post</h1>"
+@decorator
+def add(*args):
+    print(sum(args))
 
-user = User("Vaibhav")
-
-print(create_blog_post(user))
+add(1,2,3,4,5,6,7,8,9,10)
