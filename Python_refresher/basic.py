@@ -26,6 +26,32 @@
 
 
 
-words = ["hello","world","my","name","is","Anna"]
-sentence = " & ".join(words)
-print(sentence)
+# val = 5
+
+# match val:
+#     case 1:
+#         print("One") 
+#     case 2:
+#         print("Two")
+#     case 3:
+#         print("Three")
+#     case 4:
+#         print("Four")
+#     case 5:
+#         print("Five")
+
+# name = "VaIbhAv"
+# print(name.capitalize())
+# print(name.upper())
+# print(name.lower())
+
+
+# import random
+
+# print(random.random())
+# print(random.choice(['a',1,None,3.5]))
+# xd = [1,2,3,4,5]
+# random.shuffle(xd)
+# print(xd)
+
+# print(random.randrange(0,100,5))
