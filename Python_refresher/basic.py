@@ -55,3 +55,41 @@
 # print(xd)
 
 # print(random.randrange(0,100,5))
+
+
+# sentence = "Yo yo my name is mayur j khan"
+# print(sentence.split("k"))
+
+
+# listy = [1,2,3,4,5,6,7,8,9]
+
+# # listy.remove(listy[3])
+# listy.reverse()
+# listy.sort()
+
+# print(listy)
+
+
+# sample = (1,2,3,4,5,6,7,8,9)
+# sample[0] = 10
+
+# dict_d={"name":"Vaibhav","age":21,"address":"Mumbai"}
+# print(dict_d["name"])
+
+# name='Vaibhav'
+# name[0]='M'
+# print(name)
+
+# squares = [x**2 for x in range(10) if x%2==0 ]
+# print( squares )
+
+# try:
+#     print(f"{10/1:.0f}")
+# except ZeroDivisionError:
+#     print("Bud you cant divide by zero")
+# else:
+#     print("try block dint screw up")
+# finally:
+#     print("This will run no matter what")
+
+
