@@ -92,4 +92,39 @@
 # finally:
 #     print("This will run no matter what")
 
+# def decorator(func):
+#     def wrapper():
+#         print("Before the func")
+#         func()
+#         print("after the func")
+#     return wrapper
 
+# @decorator
+# def func():
+#     print("This is func")
+
+# func()
+
+
+# names = ["Vaibhav","Mayur","Khan","J","Khan"]
+
+# for i,names in enumerate(names):
+#     print(dict([(i,names)]))
+
+
+# names = [("Vaibhav",21),("Mayur",22),("Khan",23),("J",24),("Khan",25)]
+# print(dict(names))
+
+
+
+class Car:
+    def __init__(self,brand,color,cost):
+        self.brand = brand
+        self.color = color
+        self.cost = cost
+    
+    def drive(self):
+        print(f" Your {self.brand} is driving")
+
+my_car = Car("Audi","Black","1M")
+my_car.drive()         
