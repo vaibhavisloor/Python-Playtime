@@ -351,69 +351,77 @@
 # print(d.alive)
 
 
-class TreeNode:
-    def __init__(self,val):
-        self.val = val
-        self.left = None
-        self.right = None
+# class TreeNode:
+#     def __init__(self,val):
+#         self.val = val
+#         self.left = None
+#         self.right = None
 
 
-class BST:
-    def __init__(self):
-        self.root = None
+# class BST:
+#     def __init__(self):
+#         self.root = None
 
-    def add_node(self,root,val):
-        if self.root is None:
-            return TreeNode(val)
-        if self.root.val > val:
-            root.left = self.add_node(root.left,val)
-        elif self.root.val < val:
-            root.right = self.add_node(root.right,val)
-        return root   
+#     def add_node(self,root,val):
+#         if self.root is None:
+#             return TreeNode(val)
+#         if self.root.val > val:
+#             root.left = self.add_node(root.left,val)
+#         elif self.root.val < val:
+#             root.right = self.add_node(root.right,val)
+#         return root   
 
-    def search(self,val,root):
-        if root is None:
-            print("Not found")
-            return
-        if root.val == val:
-            print("Found")
-            return
-        if root.val > val:
-            return self.search(val,root.left)
-        else:
-            return self.search(val,root.right)
+#     def search(self,val,root):
+#         if root is None:
+#             print("Not found")
+#             return
+#         if root.val == val:
+#             print("Found")
+#             return
+#         if root.val > val:
+#             return self.search(val,root.left)
+#         else:
+#             return self.search(val,root.right)
         
-    def get_right_min(self,root):
-        while root.left:
-            root = root.left
+#     def get_right_min(self,root):
+#         while root.left:
+#             root = root.left
 
-    def delete_node(self,root,val):
-        if root is None:
-            return None
+#     def delete_node(self,root,val):
+#         if root is None:
+#             return None
         
-        if root.val < val:
-            root.right =  self.delete_node(root.right,val)
-        elif root.val > val:
-            root.left =  self.delete_node(root.left,val)
-        else:
-            if root.right is None and root.left is None:
-                return None
-            elif root.right is None:
-                return root.left
-            elif root.left is None:
-                return root.right
-            else:
-                #left and right child exist, so we take rightmin.
-                min_node = self.get_right_min(root.right)
-                root.val = min_node.val
+#         if root.val < val:
+#             root.right =  self.delete_node(root.right,val)
+#         elif root.val > val:
+#             root.left =  self.delete_node(root.left,val)
+#         else:
+#             if root.right is None and root.left is None:
+#                 return None
+#             elif root.right is None:
+#                 return root.left
+#             elif root.left is None:
+#                 return root.right
+#             else:
+#                 #left and right child exist, so we take rightmin.
+#                 min_node = self.get_right_min(root.right)
+#                 root.val = min_node.val
 
-                root.right = self.delete_node(root.right,min_node.val)
-        return root
+#                 root.right = self.delete_node(root.right,min_node.val)
+#         return root
 
 
 
     
-bst = BST()
-root = None
+# bst = BST()
+# root = None
 
-root = bst.add_node(root,10)
+# root = bst.add_node(root,10)
+
+
+arr = [1]
+print(arr[0])
+print(arr[-1])
+
+import math
+print(math.ceil(1.2434234))
