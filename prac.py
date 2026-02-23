@@ -101,6 +101,44 @@
 # num = random.randint(0,9)
 # print(num)
 
-import random
-a="Welcome Home dear doggy. You will stay here from today"
-print((a.split()))
+# import random
+# a="Welcome Home dear doggy. You will stay here from today"
+# print((a.split()))
+
+
+# a = [1,2,3,4,5,6,7,8,9]
+
+# print([x*x for x in a if x%2==0])
+
+# def make_counter(x=0):
+#     def inner():
+#         nonlocal x
+#         x += 1
+#         return x
+#     return inner
+# counter = make_counter()
+# print(counter())
+# print(counter())
+# print(counter())
+# print(counter())
+        
+# def make_adder(x):
+#     def inner(n):
+#         return x+n
+#     return inner
+
+# adder_5 = make_adder(5)
+# print(adder_5(10))
+
+
+def make_uppercase(func):
+    def wrapper(name):
+        name = name.upper()
+        return func(name)
+    return wrapper
+
+@make_uppercase
+def say_hi(name):
+    return f"Hello, {name}"
+
+print(say_hi('vaibhav'))
