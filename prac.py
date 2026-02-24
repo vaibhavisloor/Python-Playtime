@@ -131,14 +131,105 @@
 # print(adder_5(10))
 
 
-def make_uppercase(func):
-    def wrapper(name):
-        name = name.upper()
-        return func(name)
-    return wrapper
+# def make_uppercase(func):
+#     def wrapper(name):
+#         name = name.upper()
+#         return func(name)
+#     return wrapper
 
-@make_uppercase
-def say_hi(name):
-    return f"Hello, {name}"
+# @make_uppercase
+# def say_hi(name):
+#     return f"Hello, {name}"
 
-print(say_hi('vaibhav'))
+# print(say_hi('vaibhav'))
+
+# products = [
+#     {"name": "Bamboo Cutting Board", "cost": 5, "selling_price": 25, "weight_kg": 1.2},
+#     {"name": "Silicone Spatula Set", "cost": 3, "selling_price": 19, "weight_kg": 0.4},
+#     {"name": "Ergonomic Mouse", "cost": 12, "selling_price": 30, "weight_kg": 0.2},
+#     {"name": "Desk Mat", "cost": 8, "selling_price": 20, "weight_kg": 0.8},
+#     {"name": "Wireless Charger", "cost": 10, "selling_price": 28, "weight_kg": 0.3}
+# ]
+
+# print([product["name"] for product in products if product["selling_price"] - product["cost"] >= 15 and product["weight_kg"] > 0])
+
+
+# def make_tracker(initial_hours):
+#     def inner(x):
+#         nonlocal initial_hours
+#         initial_hours += x
+#         return initial_hours
+#     return inner
+
+# tracker = make_tracker(100)
+# tracker(10)
+# tracker(30)
+# print(tracker(1))
+# print(tracker(1))
+# print(tracker(1))
+
+# import time
+# def measure_latency(func):
+#     def wrapper():
+#         start_time = time.time()
+#         func()
+#         end_time = time.time()
+#         print(end_time  - start_time)
+#     return wrapper
+
+# @measure_latency
+# def sample_func():
+#     time.sleep(1.5)
+
+# print(sample_func())
+
+# def generator(n=1):
+#     while n:
+#         yield n
+#         n+=1
+# counter = generator()
+# print(next(counter))
+# print(next(counter))
+# print(next(counter))
+# print(next(counter))
+# print(next(counter))
+# print(next(counter))
+# print(next(counter))
+# print(next(counter))
+# print(next(counter))
+
+
+# from contextlib import contextmanager
+# import time
+
+# @contextmanager
+# def capture_session(game_title):
+#     print(f"Initializing {game_title}......")
+#     time.sleep(1.5)
+#     print(f"Preparing to record gameplay {game_title}......")
+#     time.sleep(1.5)
+#     print(f"Recording and game started")
+
+#     recording = "ACTIVE"
+
+#     try:
+#         print("Yielding boy")
+#         yield recording
+#         print("Yield Completed")
+#     finally:
+#         print("Stopping the recording.....")
+#         time.sleep(1.5)
+#         print("Saving the recording.....")
+#         time.sleep(1.5)
+#         print("Closing down the game.....")
+
+# try:
+#     with capture_session("GTA6") as game:
+#         print("\n\nGame play has started (YAAY)")
+#         time.sleep(1)
+#         print(f"GAME STATUS : {game}")
+
+#         print('Uhhh....Ohh...GPU Overloading')
+#         # raise Exception("GPU overloading bruhhh")
+# finally:
+#     print("Game over bruhh byeee..")
