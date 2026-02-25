@@ -233,3 +233,11 @@
 #         # raise Exception("GPU overloading bruhhh")
 # finally:
 #     print("Game over bruhh byeee..")
+
+
+sample_dict = {
+    'hello' : [1,2,3,4,5],
+    'namaste' : [5,6,7,8]
+}
+
+print(set("tea"),set("ate"),set("tae"),set("aet"),set("eat"))
