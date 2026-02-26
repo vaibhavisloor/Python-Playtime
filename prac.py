@@ -235,9 +235,60 @@
 #     print("Game over bruhh byeee..")
 
 
-sample_dict = {
-    'hello' : [1,2,3,4,5],
-    'namaste' : [5,6,7,8]
-}
+# sample_dict = {
+#     'hello' : [1,2,3,4,5],
+#     'namaste' : [5,6,7,8]
+# }
 
-print(set("tea"),set("ate"),set("tae"),set("aet"),set("eat"))
+# print(set("tea"),set("ate"),set("tae"),set("aet"),set("eat"))
+
+
+# a = lambda x,y: x+y
+# print(a(3,4))
+
+# x = [1,2,3,4,5]
+# a = map(lambda x:x*x , x)
+# print(list(a))
+
+
+# dicty = {
+#     'a':1,
+#     'd':10,
+#     'z':4,
+#     'b':2,
+#     'c':3
+# }
+
+# x = sorted(dicty,key = dicty.values())
+
+
+class Soldier:
+    def __init__(self):
+        self.__gold = 0
+        self.name = "Murrah"
+
+    def give_gold(self, amount):
+        self.__gold += amount
+        print(f"{amount} coins have been given")
+
+    
+    def take_gold(self,amount):
+        if self.__gold >= amount:
+            self.__gold -= amount
+            print(f"{amount} coins have been taken")
+        else:
+            print(f"This soldier has only {self.__gold} coins left.")
+    
+    def view(self):
+        return self.__gold
+    
+soldier1 = Soldier()
+soldier1.give_gold(10)
+soldier1.give_gold(10)
+soldier1.give_gold(10)
+soldier1.take_gold(20)
+soldier1.take_gold(30)
+soldier1.view()
+print(soldier1._Soldier__gold)
+soldier1._Soldier__gold = 1000
+soldier1.view()
