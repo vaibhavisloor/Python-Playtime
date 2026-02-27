@@ -262,33 +262,73 @@
 # x = sorted(dicty,key = dicty.values())
 
 
-class Soldier:
-    def __init__(self):
-        self.__gold = 0
-        self.name = "Murrah"
+# class Soldier:
+#     def __init__(self):
+#         self.__gold = 0
+#         self.name = "Murrah"
 
-    def give_gold(self, amount):
-        self.__gold += amount
-        print(f"{amount} coins have been given")
+#     def give_gold(self, amount):
+#         self.__gold += amount
+#         print(f"{amount} coins have been given")
 
     
-    def take_gold(self,amount):
-        if self.__gold >= amount:
-            self.__gold -= amount
-            print(f"{amount} coins have been taken")
-        else:
-            print(f"This soldier has only {self.__gold} coins left.")
+#     def take_gold(self,amount):
+#         if self.__gold >= amount:
+#             self.__gold -= amount
+#             print(f"{amount} coins have been taken")
+#         else:
+#             print(f"This soldier has only {self.__gold} coins left.")
     
-    def view(self):
-        return self.__gold
+#     def view(self):
+#         return self.__gold
     
-soldier1 = Soldier()
-soldier1.give_gold(10)
-soldier1.give_gold(10)
-soldier1.give_gold(10)
-soldier1.take_gold(20)
-soldier1.take_gold(30)
-soldier1.view()
-print(soldier1._Soldier__gold)
-soldier1._Soldier__gold = 1000
-soldier1.view()
+# soldier1 = Soldier()
+# soldier1.give_gold(10)
+# soldier1.give_gold(10)
+# soldier1.give_gold(10)
+# soldier1.take_gold(20)
+# soldier1.take_gold(30)
+# soldier1.view()
+# print(soldier1._Soldier__gold)
+# soldier1._Soldier__gold = 1000
+# soldier1.view()
+
+
+
+
+arr = [10,2,18,34,23,9,45,16,5]
+print(arr)
+
+def build_heap(arr):
+    index_last_non_child = len(arr)//2 - 1
+
+    for i in range(index_last_non_child,-1,-1):
+        heapify(arr,i,len(arr))
+
+def heapify(arr,i,n):
+    left = 2 * i + 1
+    right = left+1
+
+    largest = i
+
+    if left < n and arr[left] > arr[largest]:
+        largest = left
+    
+    if right < n and arr[right] > arr[largest]:
+        largest = right
+
+    if i != largest:
+        arr[i],arr[largest] = arr[largest], arr[i]
+        heapify(arr,largest,n)
+
+def heap_sort(arr):
+    build_heap(arr)
+    last_index = len(arr) - 1
+        
+    while last_index > 0:
+        arr[0],arr[last_index] = arr[last_index],arr[0]
+        last_index-=1
+        heapify(arr,0,last_index)
+
+    print(arr)
+heap_sort(arr)
