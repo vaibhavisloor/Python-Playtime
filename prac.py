@@ -296,39 +296,124 @@
 
 
 
-arr = [10,2,18,34,23,9,45,16,5]
-print(arr)
+# arr = [10,2,18,34,23,9,45,16,5]
+# print(arr)
 
-def build_heap(arr):
-    index_last_non_child = len(arr)//2 - 1
+# def build_heap(arr):
+#     index_last_non_child = len(arr)//2 - 1
 
-    for i in range(index_last_non_child,-1,-1):
-        heapify(arr,i,len(arr))
+#     for i in range(index_last_non_child,-1,-1):
+#         heapify(arr,i,len(arr))
 
-def heapify(arr,i,n):
-    left = 2 * i + 1
-    right = left+1
+# def heapify(arr,i,n):
+#     left = 2 * i + 1
+#     right = left+1
 
-    largest = i
+#     largest = i
 
-    if left < n and arr[left] > arr[largest]:
-        largest = left
+#     if left < n and arr[left] > arr[largest]:
+#         largest = left
     
-    if right < n and arr[right] > arr[largest]:
-        largest = right
+#     if right < n and arr[right] > arr[largest]:
+#         largest = right
 
-    if i != largest:
-        arr[i],arr[largest] = arr[largest], arr[i]
-        heapify(arr,largest,n)
+#     if i != largest:
+#         arr[i],arr[largest] = arr[largest], arr[i]
+#         heapify(arr,largest,n)
 
-def heap_sort(arr):
-    build_heap(arr)
-    last_index = len(arr) - 1
+# def heap_sort(arr):
+#     build_heap(arr)
+#     last_index = len(arr) - 1
         
-    while last_index > 0:
-        arr[0],arr[last_index] = arr[last_index],arr[0]
-        last_index-=1
-        heapify(arr,0,last_index)
+#     while last_index > 0:
+#         arr[0],arr[last_index] = arr[last_index],arr[0]
+#         last_index-=1
+#         heapify(arr,0,last_index)
 
-    print(arr)
-heap_sort(arr)
+#     print(arr)
+# heap_sort(arr)
+
+# class Animal:
+#     def __init__(self):
+#         self.alive = 1
+
+#     def speak(self):
+#         print("Animal speaking")
+
+# class Dog(Animal):
+#     def __init__(self):
+#         super().__init__()
+#         self.legs=4
+
+
+# d = Dog()
+# d.speak()
+# print(d.alive)
+
+
+class TreeNode:
+    def __init__(self,val):
+        self.val = val
+        self.left = None
+        self.right = None
+
+
+class BST:
+    def __init__(self):
+        self.root = None
+
+    def add_node(self,root,val):
+        if self.root is None:
+            return TreeNode(val)
+        if self.root.val > val:
+            root.left = self.add_node(root.left,val)
+        elif self.root.val < val:
+            root.right = self.add_node(root.right,val)
+        return root   
+
+    def search(self,val,root):
+        if root is None:
+            print("Not found")
+            return
+        if root.val == val:
+            print("Found")
+            return
+        if root.val > val:
+            return self.search(val,root.left)
+        else:
+            return self.search(val,root.right)
+        
+    def get_right_min(self,root):
+        while root.left:
+            root = root.left
+
+    def delete_node(self,root,val):
+        if root is None:
+            return None
+        
+        if root.val < val:
+            root.right =  self.delete_node(root.right,val)
+        elif root.val > val:
+            root.left =  self.delete_node(root.left,val)
+        else:
+            if root.right is None and root.left is None:
+                return None
+            elif root.right is None:
+                return root.left
+            elif root.left is None:
+                return root.right
+            else:
+                #left and right child exist, so we take rightmin.
+                min_node = self.get_right_min(root.right)
+                root.val = min_node.val
+
+                root.right = self.delete_node(root.right,min_node.val)
+        return root
+
+
+
+    
+bst = BST()
+root = None
+
+root = bst.add_node(root,10)
