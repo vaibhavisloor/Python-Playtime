@@ -427,30 +427,72 @@
 # print(math.ceil(1.2434234))
 
 
-def fibbonacci(n,memo):
-    if n <= 1:
-        return n
-    if memo[n] != -1:
-        return memo[n]
-    memo[n] = fibbonacci(n-1,memo) + fibbonacci(n-2,memo)
-    return memo[n]
+# def fibbonacci(n,memo):
+#     if n <= 1:
+#         return n
+#     if memo[n] != -1:
+#         return memo[n]
+#     memo[n] = fibbonacci(n-1,memo) + fibbonacci(n-2,memo)
+#     return memo[n]
 
 
-n = 6
-memo = [-1] * (n+1)
+# n = 6
+# memo = [-1] * (n+1)
 
-print(fibbonacci(6,memo))
+# print(fibbonacci(6,memo))
 
 
-def fib(n):
-    if n<=1:
-        return n
-    dp = [0] * (n+1)
-    dp[1] = 1
-    for i in range(2,n+1):
-        dp[i] = dp[i-1] + dp[i-2]
+# def fib(n):
+#     if n<=1:
+#         return n
+#     dp = [0] * (n+1)
+#     dp[1] = 1
+#     for i in range(2,n+1):
+#         dp[i] = dp[i-1] + dp[i-2]
     
-    return dp
+#     return dp
 
 
-print(fib(5))
+# print(fib(5))
+
+
+
+class ParkingLot:
+    def __init__(self,small_slots,TwoW_slots,FourW_slots,heavy_slots):
+        self.total_slots = TwoW_slots + FourW_slots + heavy_slots
+        self.two_slots = TwoW_slots
+        self.four_slots = FourW_slots
+        self.small_slots = small_slots
+        self.heavy_slots = heavy_slots
+
+    def incoming(self,wheels):
+        match wheels:
+            case 1:
+                if self.small_slots >= 1:
+                    self.total_slots -= 1
+                    self.small_slots -= 1
+                else:
+                    print("Two Wheeler parking is filled")
+            case 2:
+                if self.two_slots >= 1:
+                    self.total_slots -= 1
+                    self.two_slots -= 1
+                else:
+                    print("Two Wheeler parking is filled")
+            case 4:
+                if self.four_slots >= 1:
+                    self.total_slots -= 1
+                    self.four_slots -= 1
+                else:
+                    print("Two Wheeler parking is filled")
+
+            case n if n > 4:
+                if self.heavy_slots >= 1:
+                    self.total_slots -= 1
+                    self.heavy_slots -= 1
+                else:
+                    print("Two Wheeler parking is filled")
+
+class Vehicle:
+    def __init__(self,wheels):
+        self.wheels = wheels
