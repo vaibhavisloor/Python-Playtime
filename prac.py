@@ -457,42 +457,47 @@
 
 
 
-class ParkingLot:
-    def __init__(self,small_slots,TwoW_slots,FourW_slots,heavy_slots):
-        self.total_slots = TwoW_slots + FourW_slots + heavy_slots
-        self.two_slots = TwoW_slots
-        self.four_slots = FourW_slots
-        self.small_slots = small_slots
-        self.heavy_slots = heavy_slots
+# class ParkingLot:
+#     def __init__(self,small_slots,TwoW_slots,FourW_slots,heavy_slots):
+#         self.total_slots = TwoW_slots + FourW_slots + heavy_slots
+#         self.two_slots = TwoW_slots
+#         self.four_slots = FourW_slots
+#         self.small_slots = small_slots
+#         self.heavy_slots = heavy_slots
 
-    def incoming(self,wheels):
-        match wheels:
-            case 1:
-                if self.small_slots >= 1:
-                    self.total_slots -= 1
-                    self.small_slots -= 1
-                else:
-                    print("Two Wheeler parking is filled")
-            case 2:
-                if self.two_slots >= 1:
-                    self.total_slots -= 1
-                    self.two_slots -= 1
-                else:
-                    print("Two Wheeler parking is filled")
-            case 4:
-                if self.four_slots >= 1:
-                    self.total_slots -= 1
-                    self.four_slots -= 1
-                else:
-                    print("Two Wheeler parking is filled")
+#     def incoming(self,wheels):
+#         match wheels:
+#             case 1:
+#                 if self.small_slots >= 1:
+#                     self.total_slots -= 1
+#                     self.small_slots -= 1
+#                 else:
+#                     print("Two Wheeler parking is filled")
+#             case 2:
+#                 if self.two_slots >= 1:
+#                     self.total_slots -= 1
+#                     self.two_slots -= 1
+#                 else:
+#                     print("Two Wheeler parking is filled")
+#             case 4:
+#                 if self.four_slots >= 1:
+#                     self.total_slots -= 1
+#                     self.four_slots -= 1
+#                 else:
+#                     print("Two Wheeler parking is filled")
 
-            case n if n > 4:
-                if self.heavy_slots >= 1:
-                    self.total_slots -= 1
-                    self.heavy_slots -= 1
-                else:
-                    print("Two Wheeler parking is filled")
+#             case n if n > 4:
+#                 if self.heavy_slots >= 1:
+#                     self.total_slots -= 1
+#                     self.heavy_slots -= 1
+#                 else:
+#                     print("Two Wheeler parking is filled")
 
-class Vehicle:
-    def __init__(self,wheels):
-        self.wheels = wheels
+# class Vehicle:
+#     def __init__(self,wheels):
+#         self.wheels = wheels
+
+
+
+stack = [1,2,3,4,5]
+print(stack.popleft())
