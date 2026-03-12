@@ -419,9 +419,24 @@
 # root = bst.add_node(root,10)
 
 
-arr = [1]
-print(arr[0])
-print(arr[-1])
+# arr = [1]
+# print(arr[0])
+# print(arr[-1])
 
-import math
-print(math.ceil(1.2434234))
+# import math
+# print(math.ceil(1.2434234))
+
+
+def fibbonacci(n,memo):
+    if n <= 1:
+        return n
+    if memo[n] != -1:
+        return memo[n]
+    memo[n] = fibbonacci(n-1,memo) + fibbonacci(n-2,memo)
+    return memo[n]
+
+
+n = 6
+memo = [-1] * (n+1)
+
+print(fibbonacci(6,memo))
